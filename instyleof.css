@@ -1,0 +1,78 @@
+body{
+    /* font-family: Poppins; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* title image */
+#name{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* styles for navbar */
+#links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 30px;
+    }
+
+#links > div {
+    display: flex;
+    list-style: none;
+}
+#links a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+}
+
+/* content styles */
+#container{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+#top{ 
+    height: 400px;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#top img{
+    width: 100%;
+}
+
+#second{
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    grid-template-rows: repeat(8, 420px);
+    margin-top: 25px;
+    gap: 20px;
+}
+#second img{
+    height: 400px;
+    width: 625px;
+}
+#second .look{
+    height: 600px;
+}
+
+hr {
+    width: 110%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  .vertical{
+      height: 1920px;
+      width: 0%;
+      position: absolute;
+      left: 50%;
+      top: 587px;
+  }
