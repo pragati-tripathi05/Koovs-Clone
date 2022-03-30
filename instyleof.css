@@ -50,14 +50,15 @@ body{
 
 #second{
     display: grid;
-    grid-template-columns: repeat(2,0fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(8, 420px);
-    margin-top: 25px;
     gap: 20px;
+    /* overflow:hidden; */
 }
 #second img{
     height: 400px;
     width: 625px;
+    overflow:hidden;
 }
 #second .look{
     height: 600px;
@@ -76,3 +77,53 @@ hr {
       left: 50%;
       top: 587px;
   }
+
+
+  /* footer styles */
+
+#footer{
+    width: 95%;
+    background-color: #f3f3f3;
+    color: #444342;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#footer > div{
+    justify-content: space-between;
+    width: 16%;
+    
+}
+.tophead{
+    /* color: #453a2d; */
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 12px;
+}
+li{
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+span{
+    font-size: 12px;
+}
+#bottomline{
+    color: #c9c9c9;
+    /* margin-top: -1520px; */
+}
+.social i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.social{
+    width: 80%;
+    margin-left: 5px;
+}
+#lastline{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
