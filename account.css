@@ -132,3 +132,50 @@ input {
     margin-top: -5px;
     color: #333333;
 }
+
+/* footer styles */
+
+#footer{
+    width: 95%;
+    background-color: #f3f3f3;
+    color: #444342;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#footer > div{
+    justify-content: space-between;
+    width: 16%;
+    
+}
+.tophead{
+    /* color: #453a2d; */
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 12px;
+}
+li{
+    text-align: left;
+    font-size: 12px;
+}
+span{
+    font-size: 12px;
+}
+#bottomline{
+    color: #c9c9c9;
+}
+.social i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.social{
+    width: 80%;
+    margin-left: 5px;
+}
+#lastline{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
