@@ -1,0 +1,134 @@
+body{
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* title image */
+#name{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* styles for navbar */
+#links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 30px;
+    }
+
+#links > div {
+    display: flex;
+    list-style: none;
+}
+#links a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+}
+
+
+hr {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#bottomline{
+    margin-top: 75px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heading{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#signup{
+    display: block;
+    margin: auto;
+    width: 50%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    box-shadow: 0px 0px 6px 0px #cccccc;
+    border-radius: 4px;
+}
+
+#customer{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    background-color: #333333;
+    width: 150px;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    border: none;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button > a{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5px;
+}
+#subhead{
+    color: #333333;
+    text-align: center;
+    margin-top: -25px;
+}
+#asterisk{
+    color: red;
+}
+form {
+    width:400px;
+    margin: auto;
+    padding: 2%; 
+    color: #333333;
+}
+input {
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+}
+#submit {
+    width: 30%;
+     margin: auto;
+    border: 2px solid #333333;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2%;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#subhead a{
+    text-decoration: none;
+}
+.signin{
+    text-align: center;
+    margin-top: -5px;
+    color: #333333;
+}
