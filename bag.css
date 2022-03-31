@@ -1,0 +1,221 @@
+body {
+    font-family: 'Poppins';
+}
+
+.mainlogo {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#titlelogo {
+    width: auto;
+    height: 100%;
+    margin: auto;
+    /* margin-top: 5px; */
+}
+
+.cartSection, .empty{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blue; */
+    margin-top: 15px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.wish {
+    margin-top: 10px;
+}
+
+.wish > a > p {
+    font-size: 8px;
+    margin-top: -5px;
+
+}
+.pe-7s-user{
+    margin-top: -20px;
+}
+
+.navbar {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua;     */
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+.baghead{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#parentdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+#parentdiv .products{
+    margin-top: 40px;
+}
+/* #categorieshead{
+   display: flex;
+    font-weight: bold;
+}
+#categorieshead > div{
+    margin-right: 80px;
+}
+#pro{
+    margin-left: 30px;
+}
+#pri{
+    margin-left: 160px;
+}
+#qty{
+    margin-left: 60px;
+}
+#tot{
+    margin-left: 55px;
+} */
+.categ{
+    height: 1px;
+    width: 1000%;
+   margin-left: -960px ;
+   margin-top: 30px;
+}
+#cartleft{
+    width: 60%;
+    /* border: 1px solid red; */
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#cartright{
+    width: 35%;
+    /* border: 1px solid blue; */
+    height: 600px;
+    margin-top: 15px;
+}
+.priceside{
+    font-weight: bold;
+}
+.interest{
+    font-size: 12px;
+    color: #777777;
+}
+.taxfree{
+    color: #777777;
+}
+#sezzle{
+    width: 70px;
+}
+#checkoutbtn{
+    background-color: black;
+    color: white;
+    padding: 12px 100px;
+    border: none;
+    font-weight: bolder;
+}
+.products{
+    display: flex;
+    margin-left: -650px;
+    height: auto;
+}
+#estimatebox{
+    border: 1px solid rgb(173, 173, 173);
+    height: 170px;
+    width: 100%;
+}
+.est{
+    margin-bottom: 80px;
+}
+.est > #head{
+    display: flex;
+    margin-left: 70px;
+}
+#postalzip{
+    margin-left: 42px;
+}
+.baghead{
+    margin-top: -25px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 500px;
+}
+#head p {
+    margin-right: 200px;
+    margin-bottom: -2px;
+}
+.est > #opt{
+    display: flex;
+    justify-content: space-around;
+}
+/* footer styles */
+
+#footer{
+    width: 95%;
+    background-color: #f3f3f3;
+    color: #444342;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#footer > div{
+    justify-content: space-between;
+    width: 16%;
+    
+}
+.tophead{
+    /* color: #453a2d; */
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 12px;
+}
+li{
+    text-align: left;
+    font-size: 12px;
+}
+span{
+    font-size: 12px;
+}
+#bottomline{
+    color: #c9c9c9;
+}
+.social i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.social{
+    height: 70px;
+    width: 65%;
+}
+#lastline{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
