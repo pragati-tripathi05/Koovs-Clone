@@ -35,7 +35,7 @@ cartData.map(function (elem) {
 
 
     var total = cartData.reduce(function(sum,elem,index,arr){
-        return sum+Number(elem.pPrice);
+        return sum+Number(elem.price);
     }, 0);
     
     console.log(total);
