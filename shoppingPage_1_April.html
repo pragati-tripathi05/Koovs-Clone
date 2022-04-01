@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Poppins:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+<style>
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+  width: 94%;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header > div {
+  width: 33.2%;
+}
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  height: 24px;
+  width: auto;
+}
+#goto {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+#goto > a {
+  font-size: 14px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  margin-bottom: 0ch;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.bag {
+  font-size: 12px;
+  text-align: right;
+  margin-top: 0ch;
+  margin-right: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: right;
+  margin-right: 0px;
+  padding-right: 0px;
+  align-items: center;
+  margin-top: -15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.one {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  width: 100%;
+}
+.parallel {
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 25px;
+}
+img {
+  width: 100%;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.parallelDown {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 2s;
+}
+.parallelDown > div {
+  width: 23.7%;
+}
+.blog {
+  margin: 20px;
+}
+.quote {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+}
+.read {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.parallelDown:hover img {
+  transform: scale(1.1);
+}
+.webBody {
+  overflow: hidden;
+}
+.parallelDown img {
+  transition: transform 2s;
+  height: 150px;
+}
+
+.heading {
+  text-align: center;
+  background-color: #f6f6f8;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0px;
+}
+.container {
+  margin-top: 150px;
+}
+/* .addCart:hover{
+    background-color: white;
+    color: black;
+    height: 30px;
+} */
+.genderHead {
+  /* border: 1px solid black; */
+  padding-top: 40px;
+}
+.prodSort {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-top: 82px;
+  font-size: 14px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  border-bottom: 1px solid #d9d9dd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.arrange {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 30px;
+  padding-top: 20px;
+  align-items: baseline;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.count {
+  font-size: 14px;
+  color: #615f5f;
+}
+.arrangeWomen {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 30px;
+  padding-top: 20px;
+  align-items: baseline;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.arrangeTop {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.arrangeBrand {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.arrangeDiscountTop {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  align-items: baseline;
+  padding-top: 10px;
+  /* padding-top: 10px; */
+  padding-bottom: 0px;
+}
+.downArrow {
+  padding-left: 10px;
+}
+.arrangeDiscount {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -20px;
+}
+.rightsort {
+  /* border: 1px solid black; */
+  padding: 10px;
+  padding-left: 15px;
+  background-color: white;
+}
+.count {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  display: flex;
+}
+.menu-bar {
+  /* border: 1px solid black; */
+  width: 23%;
+}
+#products {
+  /* border: 1px solid black; */
+  width: 77%;
+}
+.prodSort img {
+  width: 15px;
+  position: absolute;
+  top: 17px;
+}
+.arrow {
+  width: 10px;
+}
+.rotate{
+    transform: rotate(270deg);
+    position: fixed;
+    left: -52px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    margin-left: 0px;
+    top: 48vh;
+    background-color: #333333;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /* border-top-right-radius: 15px; */
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.subMenu {
+  display: none;
+  transition: opacity 150ms ease-in-out;
+}
+.menu-bar ul {
+  list-style: none;
+}
+.show {
+  display: block;
+  /* transition: all 0.3s ease, visibility 0s linear 0.3s; */
+  transition-delay: 0.3s;
+  transition: opacity 150ms ease-in-out;
+  transform: 150ms ease;
+}
+.border {
+  border-bottom: 1px solid #d9d9dd;
+  /* border-bottom: 1px solid #87878a; */
+  padding-bottom: 10px;
+}
+.menu {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.top {
+  margin-top: 15px;
+}
+.cat {
+  font-size: 15px;
+  display: inline;
+  margin-left: 5px;
+}
+.check {
+  margin-right: 10px;
+  background-image: url(https://img.icons8.com/windows/32/000000/checked-checkbox--v1.png);
+}
+.SortTop {
+  border: none;
+}
+#downTown {
+  position: absolute;
+  top: 50px;
+  width: 250px;
+  left: 1130px;
+  /* display: none; */
+  border: 1px solid #d9d9dd;
+  border-top: none;
+}
+#downTown > ul > li {
+  padding: 10px;
+  list-style: none;
+}
+.downArrow {
+  margin-right: 20px;
+}
+.color {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.color:hover {
+  border: 1px solid black;
+  outline-offset: 5px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+  width: 90%;
+  margin-top: 10px;
+}
+.c30 {
+  background-color: forestgreen;
+}
+.c1 {
+  background-color: blue;
+}
+.c3 {
+  background-color: darkslateblue;
+}
+.c4 {
+  background-color: lavender;
+}
+.c5 {
+  background-color: maroon;
+}
+.c6 {
+  background-color: skyblue;
+}
+.c7 {
+  background-color: white;
+}
+.c8 {
+  background-color: silver;
+}
+.c9 {
+  background-color: white;
+}
+.c10 {
+  background-color: violet;
+}
+.c11 {
+  background-color: black;
+}
+.c12 {
+  background-color: aquamarine;
+}
+.c13 {
+  background-color: white;
+}
+.c14 {
+  background-color: sandybrown;
+}
+.c15 {
+  background-color: green;
+}
+.c16 {
+  background-color: beige;
+}
+.c17 {
+  background-color: maroon;
+}
+.c18 {
+  background-color: khaki;
+}
+.c19 {
+  background-color: purple;
+}
+.c20 {
+  background-color: olivedrab;
+}
+.c21 {
+  background-color: crimson;
+}
+.c22 {
+  background-color: pink;
+}
+.c23 {
+  background-color: sandybrown;
+}
+.c24 {
+  background-color: yellow;
+}
+.c25 {
+  background-color: midnightblue;
+}
+.c26 {
+  background-color: brown;
+}
+.c27 {
+  background-color: darkgrey;
+}
+.c28 {
+  background-color: red;
+}
+.c29 {
+  background-color: orange;
+}
+.c31 {
+  background-color: #fff;
+}
+.c32 {
+  background-color: #fff;
+}
+#products {
+  padding-left: 80px;
+  padding-right: 10px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+option:hover {
+  cursor: pointer;
+}
+.bag{
+    position: relative;
+}
+.bagC{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* padding-top: 3px; */
+}
+.countPlace1{
+    top: 15px;
+    left: 92.5%;
+}
+.countPlace2{
+    top: 15px;
+    left: 95.5%;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div></div>
+            <div>
+                <div><img class="logo"
+                        src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663" alt="">
+                </div>
+                <div id="goto">
+                    <a href="#">MEN</a>
+                    <a href="#">WOMEN</a>
+                    <a href="#">THE BLOG</a>
+                    <a href="#">KOOVSXYOU</a>
+                    <a href="#">IN STYLE OF</a>
+                </div>
+            </div>
+            <div class="icons">
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/search--v1.png" />
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/user-male-circle.png" />
+                <div>
+                    <img class="icon" src="https://img.icons8.com/ios/50/000000/like--v1.png" />
+                    <p class="bag">wishlist</p>
+                    <div class="bagC countPlace1">0</div>
+                </div>
+                <div>
+                    <img class="icon" src="https://img.icons8.com/ios/50/000000/shopping-bag--v1.png" />
+                    <p class="bag">BAG</p>
+                    <div class="bagC countPlace2">0</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="heading">New season new drop</h1>
+        </div>
+        <div class="prodSort">
+            <div>1033 Products</div>
+            <div>
+                <a onclick="SortDown()" href="#">Sort By <img class="downArrow"
+                        src="https://img.icons8.com/ios/50/000000/expand-arrow--v2.png" /></a>
+                <div class="subMenu show" id="downTown">
+                    <option id="rel" onclick="FilterRel()" class="rightsort" value="rel"><a href="#">Relevance</a>
+                    </option>
+                    <option id="lth" onclick="FilterLth()" class="rightsort" value="lth"><a href="#">Price Low To
+                            High</a></option>
+                    <option id="htl" onclick="FilterHtl()" class="rightsort" value="htl"><a href="#">Price High To
+                            Low</a></option>
+                    <option id="nto" onclick="FilterNto()" class="rightsort" value="nto"><a href="#">Products New To
+                            Old</a></option>
+
+                </div>
+            </div>
+        </div>
+        <h2 class="rotate">&#11088 Reviews</h2>
+        <div class="container">
+            <div class="menu-bar">
+                <ul>
+                    <li class="menu1 menu genderHead"> <a onclick="drop1()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">GENDER</h1>
+                        </a>
+                        <div class="subMenu show" id="down1">
+                            <div class="arrange">
+                                <div>
+                                    <option id="selectMen" onclick="FilterMen()" class="top" value="men"><a
+                                            href="#">Men</a></option>
+                                </div>
+                                <div>
+                                    <p class="count">(690)</p>
+                                </div>
+                            </div>
+                            <div class="arrangeWomen border">
+                                <div>
+                                    <option id="selectWomen" onclick="FilterWomen()" value="women"><a href="#">Women</a>
+                                    </option>
+                                </div>
+                                <div>
+                                    <p class="count">(334)</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="menu2 menu"> <a onclick="drop2()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">BRAND</h1>
+                        </a>
+                        <div class="subMenu show" id="down2">
+                            <ul>
+                                <div class="arrangeTop">
+                                    <div>
+                                        <input onclick="FilterBlueSaint()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="BlueSaint" onclick="FilterBlueSaint()"
+                                            class="top" value="BLUE SAINT"><a href="#">Blue Saint</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(387)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="Filterkoovs()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="koovs" onclick="Filterkoovs()" class="top"
+                                            value="KOOVS"><a href="#">Koovs</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(325)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterFugazee()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="fugazee" onclick="FilterFugazee()"
+                                            class="top" value="FUGAZEE"><a href="#">FUGAZEE</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(58)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterOne()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="one" onclick="FilterOne()" class="top"
+                                            value="one/Zero"><a href="#">One/Zero By Koovs</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(85)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterReal()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="real" onclick="FilterReal()" class="top"
+                                            value="real"><a href="#">REALM</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(169)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterKult()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="kult" onclick="FilterKult()" class="top"
+                                            value="kult"><a href="#">Kultprint</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(98)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand border">
+                                    <div>
+                                        <input onclick="FilterK()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="k" onclick="FilterK()" class="top"
+                                            value="k"><a href="#">K Denim</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(155)</p>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu3 menu"> <a onclick="drop3()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">DISCOUNT</h1>
+                        </a>
+                        <div class="subMenu show" id="down3">
+                            <ul>
+                                <div class="arrangeDiscountTop">
+                                    <div>
+                                        <li class="top"><input class="check" type="checkbox"><a href="#">Above 80%</a>
+                                        </li>
+                                        </option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(10)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">70%-80%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(98)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">60%-70%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(169)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">50%-60%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(77)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">40%-50%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(150)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">30%-40%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(240)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">20%-30%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(67)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">10%-20%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(155)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount border">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">under 10%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(144)</p>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu4 menu"> <a onclick="drop4()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">COLOR</h1>
+                        </a>
+                        <div class="subMenu show" id="down4">
+                            <ul class="grid">
+                                <!-- <option id="selectWomen" onclick="FilterWomen()" value="women"><a href="#">Women</a>
+                                </option> -->
+                                <li onclick="blue()" value="blue" class="color c1"></li>
+                                <li onclick="skyblue()" value="skyblue" class="color c6"></li>
+                                <li onclick="black()" value="black" class="color c11"></li>
+                                <li onclick="Fwhite()" value="white" class="color c13"></li>
+                                <li onclick="brown()" value="brown" class="color c14"></li>
+                                <li onclick="green()" value="green" class="color c15"></li>
+                                <li onclick="pink()" value="pink" class="color c22"></li>
+                                <li onclick="darkblue()" value="darkblue" class="color c25"></li>
+                                <li onclick="grey()" value="grey" class="color c27"></li>
+                                <li onclick="red()" value="red" class="color c28"></li>
+                                <li  onclick="orange()" value="orange" class="color c29"></li>
+                                <li onclick="darkGreen()" value="darkgreen" class="color c30"></li>
+                                <li class="color c2"></li>
+                                <li class="color c3"></li>
+                                <li class="color c4"></li>
+                                <li class="color c5"></li>
+                                <li class="color c7"></li>
+                                <li class="color c8"></li>
+                                <li class="color c9"></li>
+                                <li class="color c10"></li>
+                                <li class="color c12"></li>
+                                <li class="color c16"></li>
+                                <li class="color c17"></li>
+                                <li class="color c17"></li>
+                                <li class="color c18"></li>
+                                <li class="color c19"></li>
+                                <li class="color c20"></li>
+                                <li class="color c21"></li>
+                                <li class="color c23"></li>
+                                <li class="color c24"></li>
+                                <li class="color c26"></li>
+                                <li class="color c27"></li>
+                                <li class="color c31"></li>
+                                <li class="color c32"></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu5 menu"> <a onclick="drop5()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">STYLE</h1>
+                        </a>
+                        <div class="subMenu show" id="down5">
+                            <ul>
+                                <li class="top"><input class="check" type="checkbox"><a href="#">Shirts</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Jeans</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Shorts</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">T-shirts and Polo Shirts</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Coats and Jackets</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Jog Pants</a></li>
+                                <li class="border"><input class="check" type="checkbox"><a href="#">Trousers and
+                                        Chinos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu6 menu"> <a onclick="drop6()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">SIZE</h1>
+                        </a>
+                        <div class="subMenu show" id="down6">
+                            <ul>
+                                <li class="top"><a href="#">S</a></li>
+                                <li><a href="#">M</a></li>
+                                <li><a href="#">L</a></li>
+                                <li><a href="#">XL</a></li>
+                                <li><a href="#">XXL</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="products" style="padding-left: 50px;">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function drop1() {
+        var down = document.getElementById("down1")
+        down.classList.toggle("show")
+    }
+    function drop2() {
+        var down = document.getElementById("down2")
+        down.classList.toggle("show")
+    }
+    function drop3() {
+        var down = document.getElementById("down3")
+        down.classList.toggle("show")
+    }
+    function drop4() {
+        var down = document.getElementById("down4")
+        down.classList.toggle("show")
+    }
+    function drop5() {
+        var down = document.getElementById("down5")
+        down.classList.toggle("show")
+    }
+    function drop6() {
+        var down = document.getElementById("down6")
+        down.classList.toggle("show")
+    }
+    function SortDown() {
+        var down = document.getElementById("downTown")
+        down.classList.toggle("show")
+    }
+
+    //---------------------------------------------------------------------------------------- 
+
+    var shop = [
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_3848_360x.jpg?v=1636526578",
+            gender: "men",
+            brand: "BLUE SAINT",
+            color: "blue",
+            size: "s",
+            name: "Solid Basic Berry Blue Casual Wear Perfect Fit Shirt",
+            price: "880",
+            strikedoffprice: "2199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1387_360x.jpg?v=1640347833",
+            gender: "women",
+            brand: "REALM",
+            color: "skyblue",
+            size: "s",
+            name: "Overcoat Style Denim Jacket Casual Winter Wear",
+            price: "720",
+            strikedoffprice: "3599",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/0U9A2587_360x.jpg?v=1634749626",
+            gender: "men",
+            brand: "BLUE SAINT",
+            color: "grey",
+            size: "s",
+            name: "Blue Saint Chambray Patch Pocket Casual Shirt",
+            price: "800",
+            strikedoffprice: "₹1599",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0865_360x.jpg?v=1640347832",
+            gender: "women",
+            brand: "REALM",
+            color: "pink",
+            size: "s",
+            name: "Baby Pink Love Casual Wear Denim Jacket",
+            price: "800",
+            strikedoffprice: "3999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_2593_3ab578f3-2ee5-4a57-9b3c-c213c51880b9_360x.jpg?v=1635999851",
+            gender: "men",
+            brand: "BLUE SAINT",
+            color: "darkblue",
+            size: "s",
+            name: "Solid Ocean Blue Plain Basic Casual Denim Shirt",
+            price: "600",
+            strikedoffprice: "1499",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0766_360x.jpg?v=1640347831",
+            gender: "women",
+            brand: "REALM",
+            color: "grey",
+            size: "s",
+            name: "Spotted Casual Wear White Denim Jacket",
+            price: "840",
+            strikedoffprice: "4199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1352_360x.jpg?v=1643171045",
+            gender: "men",
+            brand: "KOOVS",
+            color: "black",
+            size: "s",
+            name: "Patch Pocket Corduroy Jacket",
+            price: "1399",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0724_360x.jpg?v=1640347831",
+            gender: "women",
+            brand: "REALM",
+            color: "white",
+            size: "s",
+            name: "Snow Flakes Print Casual Wear Street Denim",
+            price: "549",
+            strikedoffprice: "2949",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2223_360x.jpg?v=1643175668",
+            gender: "men",
+            brand: "KOOVS",
+            color: "black",
+            size: "s",
+            name: "Luxe Revre Collar Satin Shirt.",
+            price: "1259",
+            strikedoffprice: "1799",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2373_360x.jpg?v=1640347829",
+            gender: "women",
+            brand: "REALM",
+            color: "black",
+            size: "s",
+            name: "Tropical Green Casual Wear Solid Print Jacket",
+            price: "760",
+            strikedoffprice: "3799",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1817_360x.jpg?v=1643170741",
+            gender: "men",
+            brand: "KOOVS",
+            color: "white",
+            size: "s",
+            name: "Luxe Spread Collar Satin Shirt",
+            price: "1329",
+            strikedoffprice: "1899",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2112_360x.jpg?v=1643170740",
+            gender: "men",
+            brand: "KOOVS",
+            color: "darkgreen",
+            size: "s",
+            name: "Notch Lapel Forest Green Luxe Spread Collar Satin Shirt",
+            price: "1259",
+            strikedoffprice: "1799",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1845_360x.jpg?v=1643171196",
+            gender: "men",
+            brand: "KOOVS",
+            color: "grey",
+            size: "s",
+            name: "Pastel Patched Casual Wear Stylish Shirt",
+            price: "1399",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2409_360x.jpg?v=1643176212",
+            gender: "men",
+            brand: "KOOVS",
+            color: "orange",
+            size: "s",
+            name: "Earthy Patched Casual Wear Funky Shirt",
+            price: "1399",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0118_3c6369fb-31c8-47eb-91b3-fc5c138a3565_360x.jpg?v=1647928125",
+            gender: "men",
+            brand: "KOOVS",
+            color: "grey",
+            size: "s",
+            name: "Pastle Green Casual Wear Smart Shirt",
+            price: "1399",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0061_c227930a-93d1-4af9-8b1d-5beb08fa3900_360x.jpg?v=1647928124",
+            gender: "men",
+            brand: "KOOVS",
+            color: "black",
+            size: "s",
+            name: "Hot Black Must Have Solid Shirt",
+            price: "1399",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0033_360x.jpg?v=1647928124",
+            gender: "men",
+            brand: "KOOVS",
+            color: "brown",
+            size: "s",
+            name: "Dark Brown Solid Patched Casual T-Shirt",
+            price: "1999",
+            strikedoffprice: "2999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1564_360x.jpg?v=1643170743",
+            gender: "men",
+            brand: "KOOVS",
+            color: "red",
+            size: "s",
+            name: "Dark Brown Solid Patched Casual T-Shirt",
+            price: "1399",
+            strikedoffprice: "1899",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2192_20509851-b608-4052-b7b9-7ab8efb94241_360x.jpg?v=1643175668",
+            gender: "men",
+            brand: "KOOVS",
+            color: "red",
+            size: "s",
+            name: "Luxe Spread Collar Satin Shirt",
+            price: "1329",
+            strikedoffprice: "1899",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2380_ea0fe150-74c6-4e8d-9909-620a35df0e1a_360x.jpg?v=1643175668",
+            gender: "men",
+            brand: "KOOVS",
+            color: "grey",
+            size: "s",
+            name: "Luxe Revre Collar Satin Shirt.",
+            price: "1259",
+            strikedoffprice: "1799",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2165_e1dc832d-bcbe-4a95-b1d4-0b19e9ad4889_360x.jpg?v=1643171197",
+            gender: "men",
+            brand: "KOOVS",
+            color: "green",
+            size: "s",
+            name: "Casual Grass Green Basic Solid Shirt",
+            price: "1359",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1584_360x.jpg?v=1643171197",
+            gender: "men",
+            brand: "KOOVS",
+            color: "red",
+            size: "s",
+            name: "Casual Must Have Rich Black Solid T-Shirt",
+            price: "1159",
+            strikedoffprice: "1699",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2447_360x.jpg?v=1643172963",
+            gender: "men",
+            brand: "KOOVS",
+            color: "green",
+            size: "s",
+            name: "Back Welt Pocket Trouser",
+            price: "1359",
+            strikedoffprice: "2699",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2426_360x.jpg?v=1643172963",
+            gender: "men",
+            brand: "KOOVS",
+            color: "darkgreen",
+            size: "s",
+            name: "Back Welt Pocket Trouser",
+            price: "1359",
+            strikedoffprice: "2699",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2345_5e7eab96-7cb0-4469-8202-dc201480781f_360x.jpg?v=1643172964",
+            gender: "men",
+            brand: "KOOVS",
+            color: "orange",
+            size: "s",
+            name: "Back Welt Pocket With Flap, Marble Wash",
+            price: "1359",
+            strikedoffprice: "1699",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0770_b27e9faf-5a00-4130-a52d-9dd9fb6d25c5_360x.jpg?v=1643171158",
+            gender: "men",
+            brand: "KOOVS",
+            color: "crimson",
+            size: "s",
+            name: "Satin Weave Cotton Trouser & Back Pocket With Flap",
+            price: "1159",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1424_360x.jpg?v=1643169478",
+            gender: "men",
+            brand: "KOOVS",
+            color: "red",
+            size: "s",
+            name: "Back Welt Pocket With Flap, Marble Wash",
+            price: "1359",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1247_360x.jpg?v=1643171158",
+            gender: "men",
+            brand: "KOOVS",
+            color: "grey",
+            size: "s",
+            name: "Satin Weave Cotton Trouser Back Welt Pocket With Flap",
+            price: "1159",
+            strikedoffprice: "1999",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A9643_360x.jpg?v=1640347372",
+            gender: "women",
+            brand: "One/Zero By Koovs",
+            color: "pink",
+            size: "s",
+            name: "Off White Slim Fit Breathable Phone Pocket Printed Leggings",
+            price: "900",
+            strikedoffprice: "1799",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A9761_360x.jpg?v=1644468224",
+            gender: "women",
+            brand: "ONE/ZERO BY KOOVS",
+            color: "white",
+            size: "s",
+            name: "Phone Pocket Printed Leggings",
+            price: "1799",
+            strikedoffprice: "2799",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/160767_316ea4b395994b21882b99854dd68d8d_image1_zoom_360x.jpg?v=1646477944",
+            gender: "men",
+            brand: "K Denim",
+            color: "grey",
+            size: "s",
+            name: "Basic Slim Fit Jeans",
+            price: "799",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/160765_9134adb87c434fc09aa4b23dd7f7ca34_image1_zoom_360x.jpg?v=1646477833",
+            gender: "men",
+            brand: "K Denim",
+            color: "grey",
+            size: "s",
+            name: "Basic Slim Fit Jeans",
+            price: "699",
+            strikedoffprice: "1099",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/158477_16d3d276ec0246ce8f21e4d750f06ac5_image1_zoom_360x.jpg?v=1636354382",
+            gender: "men",
+            brand: "K Denim",
+            color: "black",
+            size: "s",
+            name: "Dark-Wash Skinny Fit Jeans",
+            price: "899",
+            strikedoffprice: "1099",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/158440_82a971f7379f4da9b97e695b2ad4a272_image1_zoom_360x.jpg?v=1631101307",
+            gender: "men",
+            brand: "Kultprint",
+            color: "blue",
+            size: "s",
+            name: "Dark-Wash Skinny Jeans",
+            price: "999",
+            strikedoffprice: "1099",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/158435_00f4a1b3f50f4cd4a685d472def093f3_image1_zoom_360x.jpg?v=1646478437",
+            gender: "men",
+            brand: "K Denim",
+            color: "white",
+            size: "s",
+            name: "Basic Skinny Jeans",
+            price: "699",
+            strikedoffprice: "1099",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/167205_140d6dc78b3a44d085d2179fa05732f8_image1_zoom_360x.jpg?v=1631100242",
+            gender: "men",
+            brand: "K Denim",
+            color: "sky blue",
+            size: "s",
+            name: "Light-Wash Cropped Denim Jeans",
+            price: "800",
+            strikedoffprice: "1399",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/167777_3472262220ca46f895a601834e6f143a_image1_zoom_360x.jpg?v=1631125149",
+            gender: "men",
+            brand: "K Denim",
+            color: "darkgreen",
+            size: "s",
+            name: "K Denim Koovs Roll-Up Hem Shorts",
+            price: "600",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/169227_3a412147b9c146d18ef189c5a3de0c54_image1_zoom_360x.jpg?v=1631125070",
+            gender: "women",
+            brand: "K Denim",
+            color: "grey",
+            size: "s",
+            name: "K Denim Koovs Curved Hem Paperbag Shorts",
+            price: "750",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/169175_0d8b328ced20407a91b967ddee49664f_image1_zoom_360x.jpg?v=1631125172",
+            gender: "women",
+            brand: "K Denim",
+            color: "blue",
+            size: "s",
+            name: "K Denim Koovs Dark Wash Belted Shorts",
+            price: "750",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/169157_b9f75dccfdd44799a1a47dd6a4c05086_image1_zoom_360x.jpg?v=1631100547",
+            gender: "women",
+            brand: "K Denim",
+            color: "skyblue",
+            size: "s",
+            name: "Frayed Hem Light-Wash Jeans",
+            price: "850",
+            strikedoffprice: "1699",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/170846_e8234b215ce840d7a2493fb691ad987e_image1_zoom_360x.jpg?v=1631102332",
+            gender: "men",
+            brand: "FUGAZEE",
+            color: "white",
+            size: "s",
+            name: "Skin Friendly And Breathable",
+            price: "850",
+            strikedoffprice: "1699",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_4347_360x.jpg?v=1634749590",
+            gender: "men",
+            brand: "FUGAZEE",
+            color: "blue",
+            size: "s",
+            name: "Electric Blue V-Neck Tee",
+            price: "600",
+            strikedoffprice: "1699",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_5661_360x.jpg?v=1634749589",
+            gender: "men",
+            brand: "FUGAZEE",
+            color: "green",
+            size: "s",
+            name: "Olive Patched V-Neck Tee",
+            price: "600",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_5172_fc258cc0-1900-41a4-8b96-2ea221b365ce_360x.jpg?v=1634749587",
+            gender: "men",
+            brand: "FUGAZEE",
+            color: "brown",
+            size: "s",
+            name: "Charcoal Bulletholes Scoop Neck Tee",
+            price: "650",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165939_322c312a8b30441eacc30532cef031df_image1_zoom_360x.jpg?v=1644821648",
+            gender: "women",
+            brand: "One/Zero By Koovs",
+            color: "white",
+            size: "s",
+            name: "Reflective Logo Training T-Shirt",
+            price: "450",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165874_9466b5eea71049b5a79df6b819af664a_image1_zoom_360x.jpg?v=1631106226",
+            gender: "women",
+            brand: "One/Zero By Koovs",
+            color: "yellow",
+            size: "s",
+            name: "Active Stretch Training T-Shirt",
+            price: "450",
+            strikedoffprice: "1199",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165943_2220659034d44d42a53c209bfd8719ff_image1_zoom_360x.jpg?v=1644821729",
+            gender: "women",
+            brand: "One/Zero By Koovs",
+            color: "white",
+            size: "s",
+            name: "Racerback Training Vest",
+            price: "450",
+            strikedoffprice: "899",
+        },
+        {
+            image_url:
+                "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165950_2ad74677673c45dba6378df0e220051f_image1_zoom_360x.jpg?v=1631115718",
+            gender: "women",
+            brand: "One/Zero By Koovs",
+            color: "white",
+            size: "s",
+            name: "Color Block Training T-Shirt",
+            price: "450",
+            strikedoffprice: "899",
+        },
+
+    ];
+
+    // {
+    //         image_url:
+    //             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_3848_360x.jpg?v=1636526578",
+    //         gender: "men",
+    //         brand: "blue saint",
+    //         color:"blue",
+    //         size: "s",
+    //         name: "Solid Basic Berry Blue Casual Wear Perfect Fit Shirt",
+    //         price: "₹880",
+    //         strikedoffprice: "₹2199",
+    //     }
+
+    //         relevace: "rel" --> add it randomly
+
+    var cartData = JSON.parse(localStorage.getItem("cart")) || [];
+
+    shop.map(function (elem) {
+        displayData(shop)
+    });
+
+    function addToCart(elem) {
+        console.log(elem);
+        cartData.push(elem);
+        localStorage.setItem("cart", JSON.stringify(cartData));
+        alert("item added to cart");
+    }
+
+    function FilterWomen() {
+        var selected = document.querySelector("#selectWomen").value;
+        var filteredList = shop.filter(function (elem) {
+            return elem.gender == selected;
+        });
+        displayData(filteredList)
+    }
+
+    function FilterMen() {
+        var selected = document.querySelector("#selectMen").value;
+
+        var filteredList = shop.filter(function (elem) {
+            return elem.gender == selected;
+        });
+        displayData(filteredList)
+    }
+
+    // <option id="BlueSaint" onclick="FilterBlueSaint()" class="top" value="bluesaint"><input class="check" type="checkbox"><a href="#">Blue Saint</a></option>
+
+    function FilterBlueSaint() {
+        var selected = document.querySelector("#BlueSaint").value;
+
+        var filteredList = shop.filter(function (elem) {
+            return elem.brand == selected;
+        });
+        displayData(filteredList)
+    }
+
+    function blue(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "blue"
+        })
+        displayData(filteredList)
+    }
+    function skyblue(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "skyblue"
+        })
+        displayData(filteredList)
+    }
+    function grey(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "grey"
+        })
+        displayData(filteredList)
+    }
+    function pink(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "pink"
+        })
+        displayData(filteredList)
+    }
+    function darkblue(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "darkblue"
+        })
+        displayData(filteredList)
+    }
+    function black(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "black"
+        })
+        displayData(filteredList)
+    }
+    function Fwhite(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "white"
+        })
+        displayData(filteredList)
+    }
+    function orange(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "orange"
+        })
+        displayData(filteredList)
+    }
+    function brown(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "brown"
+        })
+        displayData(filteredList)
+    }
+    function red(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "red"
+        })
+        displayData(filteredList)
+    }
+    function green(){
+        var filteredList = shop.filter(function(elem){
+            return elem.color == "green"
+        })
+        displayData(filteredList)
+    }
+
+    // <input onclick="Filterkoovs()" class="check" type="checkbox"><option style="display: inline;" id="koovs" onclick="Filterkoovs()" class="top" value="KOOVS"><a href="#">Koovs</a></option>
+
+    function Filterkoovs() {
+        var filteredList = shop.filter(function (elem) {
+            return elem.brand == "KOOVS"
+        })
+        displayData(filteredList)
+    }
+    function FilterFugazee() {
+        var filteredList = shop.filter(function (elem) {
+            return elem.brand == "FUGAZEE"
+        })
+        displayData(filteredList)
+    }
+
+    function FilterOne() {
+        var filteredList = shop.filter(function (elem) {
+            return elem.brand == "One/Zero By Koovs"
+        })
+        displayData(filteredList)
+    }
+    function FilterReal() {
+        var filteredList = shop.filter(function (elem) {
+            return elem.brand == "REALM"
+        })
+        displayData(filteredList)
+    }
+    function FilterKult() {
+        var filteredList = shop.filter(function (elem) {
+            return elem.brand == "Kultprint"
+        })
+        displayData(filteredList)
+    }
+    function FilterK() {
+        var filteredList = shop.filter(function (elem) {
+            return elem.brand == "K Denim"
+        })
+        displayData(filteredList)
+    }
+
+
+    function FilterRel() {
+        var selected = document.querySelector("#rel").value;
+
+        var filteredList = shop.filter(function (elem) {
+            return elem.relevace == selected;
+        });
+        displayData(filteredList)
+    }
+
+    function FilterLth() {
+        var selected = document.querySelector("#lth").value;
+        var sortedList = shop.sort(function (a, b) {
+            return a.price - b.price;
+        });
+        displayData(sortedList);
+    }
+
+    function FilterHtl() {
+        var selected = document.querySelector("#htl").value;
+        var sortedList = shop.sort(function (a, b) {
+            return b.price - a.price;
+        });
+        displayData(sortedList);
+    }
+
+    function FilterNto() {
+        var selected = document.querySelector("#nto").value;
+        var sortedList = shop.sort(function (a, b) {
+            return b.strikedoffprice - a.strikedoffprice;
+        });
+        displayData(sortedList);
+    }
+
+    function displayData(shop) {
+        document.querySelector("#products").innerHTML = "";
+        shop.map(function (elem) {
+            var box = document.createElement("div");
+            var img = document.createElement("img");
+            img.src = elem.image_url;
+            img.style.paddingBottom = "0px"
+            img.style.marginBottom = "0px"
+            var discount = document.createElement("div");
+            discount.innerText = "-60%"
+            discount.style.position = "absolute"
+            discount.style.width = "40px"
+            discount.style.padding = "5px"
+            discount.style.height = "15px"
+            discount.style.color = "white"
+            discount.style.textAlign = "center"
+            discount.style.fontSize = "13px"
+            discount.style.fontWeight = "600"
+            discount.style.fontFamily = "Poppins"
+            discount.style.backgroundColor = "crimson"
+            discount.style.top = "310px"
+            var gender = document.createElement("p");
+            gender.innerText = elem.gender
+            var name = document.createElement("p");
+            name.textContent = elem.name;
+            name.style.fontWeight = "600"
+            name.style.fontSize = "14px"
+            name.style.fontFamily = "Poppins"
+            name.style.paddingTop = "5px"
+            var brand = document.createElement("p")
+            brand.textContent = elem.brand;
+            brand.style.fontSize = "14px"
+            brand.style.fontFamily = "Poppins"
+            brand.style.paddingTop = "5px"
+            brand.style.color = "#87878a"
+            var price = document.createElement("p");
+            price.innerText = "₹ " + elem.price;
+            price.style.color = "red";
+            price.style.fontFamily = "Poppins"
+            price.style.fontSize = "14px"
+            price.style.display = "inline"
+            var striked = document.createElement("p")
+            striked.innerText = "₹ " + elem.strikedoffprice
+            striked.style.display = "inline"
+            striked.style.marginLeft = "10px"
+            striked.style.textDecoration = "line-through"
+            var btn = document.createElement("button");
+            btn.innerText = "Add to Cart";
+            btn.innerText.color = "white"
+            btn.style.fontFamily = "Poppins"
+            btn.style.width = "100%"
+            btn.style.display = "block"
+            btn.style.marginTop = "-6px"
+            btn.style.paddingTop = "0px"
+            btn.style.backgroundColor = "black"
+            btn.style.color = "white"
+            btn.style.height = "40px"
+            btn.style.border = "none"
+            btn.onmouseover = function(){
+                btn.style.color = "white"
+                btn.style.backgroundColor = "grey"
+            }
+            btn.onmouseout = function(){
+                btn.style.color = "white"
+                btn.style.backgroundColor = "black"
+            }
+            // element.setAttribute("class", "democlass");
+            btn.addEventListener("click", function () {
+                addToCart(elem);
+            });
+            var colorCir = document.createElement("div")
+            // colorCir.innerText = elem.color
+            colorCir.style.width = "30px"
+            colorCir.style.height = "30px"
+            colorCir.style.marginTop = "10px"
+            colorCir.style.borderRadius = "50%"
+            colorCir.style.backgroundColor = elem.color
+            colorCir.style.border = "1px solid #87878a"
+            box.append(img, discount, btn, name, brand, price, striked, colorCir);
+            document.querySelector("#products").append(box);
+        });
+    }
+
+</script>
