@@ -10,7 +10,7 @@ body {
     /* background-color: red; */
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 img {
@@ -28,6 +28,7 @@ img {
     align-items: center;
     /* background-color: blue; */
     margin-top: 15px;
+    margin-right: -200px;
 }
 
 i {
@@ -41,8 +42,16 @@ i {
 .wish > p {
     font-size: 11px;
     margin-top: -5px;
+}
+.wish > a > p {
+    font-size: 10px;
+    margin-top: -5px;
 
 }
+.pe-7s-user{
+    margin-top: -20px;
+}
+
 
 .navbar {
     width: 90%;
@@ -164,7 +173,7 @@ h2 {
 #footer > div{
     justify-content: space-between;
     width: 16%;
-    
+
 }
 .tophead{
     /* color: #453a2d; */
@@ -260,6 +269,3 @@ p + i {
     }
 
 }
-
-
-
