@@ -188,3 +188,38 @@ width: 50%;
                 </div>
 </body>
 </html>
+
+<script>
+
+var wishlist = JSON.parse(localStorage.getItem("cart"));
+console.log(wishlist);
+
+wishlist.map(function (elem) {
+    var product = document.createElement("div");
+    product.setAttribute("class","productBox");
+
+    var image = document.createElement("img");
+    image.src = elem.imgUrl;
+    image.setAttribute("class","productImg");
+    image.style.width = "50%";
+    image.style.height = "100px";
+
+
+    var pName = document.createElement("h5");
+    pName.innerText = elem.name;
+    pName.style.fontSize ="16px"
+
+    var pPrice = document.createElement("p");
+    pPrice.innerText = elem.price;
+    
+    var line=document.createElement("hr");
+
+    product.append(image);
+    product.append( pName );
+    product.append(pPrice);
+    product.append(line);
+    
+
+    document.querySelector(".products").append(product);
+});
+</script>
