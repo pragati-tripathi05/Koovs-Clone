@@ -1,0 +1,201 @@
+body {
+    font-family: 'Poppins','sans-sarif';
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* border: 1px solid black; */
+    display: flex;
+    
+}
+
+.left {
+    width: 55%;
+    height: auto;
+    border-right: 1px solid black;
+    /* border: 1px solid red; */
+}
+
+.right {
+    width: 45%;
+    height: auto;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+}
+
+.leftBox {
+    width: 70%;
+    height: 100%;
+    margin-left: 24%;
+    padding: 30px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.leftBox > a > img {
+    width: 25%;
+    height: 4%;
+}
+
+.user {
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.dummyImg{
+    width: 10%;
+    height: 10%;
+}
+
+.userEmail {
+    margin-left: 10px;
+}
+.userEmail > p {
+    font-size: 13px;
+    margin: 0;
+} 
+
+.news {
+    display: flex;
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.news > span > i {
+    margin-right: 5px;
+}
+
+#address,#country {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#first_name,#last_name,#cvv,#expire {
+    width: 49.5%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#com,#addr,#flat,#phone,#cardNum,#cardName {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#city,#state,#pin {
+    width: 32.7%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.cartORpay {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartORpay > button:nth-child(1) {
+    box-sizing: border-box;
+    /* padding: 25px 0px; */
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+#submit {
+    box-sizing: border-box;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cartORpay > button:nth-child(1) > a {
+    all: revert;
+    text-decoration: none;
+    color: black;
+}
+
+.cartORpay > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.rights {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid black;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+/* Right Side */
+
+.rightBox {
+    width: 60%;
+    height: 500px;
+    margin-left: 9%;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+}
+
+.discount {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+#code {
+    width: 75%;
+    height: auto;
+    font-size: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.discount > button {
+    width: 22%;
+    height: auto;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: #cecece;
+    color: white;
+    cursor: pointer;
+}
+
+.total {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#showTotal {
+    padding-right: 5%;
+    margin-top: 5px;  
+}
