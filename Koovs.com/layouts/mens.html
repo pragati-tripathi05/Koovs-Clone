@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koovs - Best Fashion Store In India</title>
+    <link rel="shortcut icon" type="image/png"
+        href="//cdn.shopify.com/s/files/1/0584/9399/3141/files/favicon-32x32_32x.png?v=1627207424">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Poppins:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/mens.css"/>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div></div>
+            <div>
+                <div><a href="/layouts/index.html">
+                    <img class="logo"
+                    src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663" alt="">
+                </a>
+                </div>
+                <div id="goto">
+                    <a href="#"><b>MEN</b></a>
+                    <a href="/layouts/women.html">WOMEN</a>
+                    <a href="#">THE BLOG</a>
+                    <a href="#">KOOVSXYOU</a>
+                    <a href="#">IN STYLE OF</a>
+                </div>
+            </div>
+            <div class="icons">
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/search--v1.png" />
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/user-male-circle.png" />
+                <div>
+                    <img class="icon" src="https://img.icons8.com/ios/50/000000/like--v1.png" />
+                    <p class="bag">wishlist</p>
+                    <div class="bagC countPlace1">0</div>
+                </div>
+                <div>
+                    <a href="/bag.html">
+                        <img class="icon" src="https://img.icons8.com/ios/50/000000/shopping-bag--v1.png" />
+                        <p class="bag">BAG</p>
+                        <div class="bagC countPlace2">0</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="heading">New season new drop</h1>
+        </div>
+        <div class="prodSort">
+            <div>1033 Products</div>
+            <div>
+                <a onclick="SortDown()" href="#">Sort By <img class="downArrow"
+                        src="https://img.icons8.com/ios/50/000000/expand-arrow--v2.png" /></a>
+                <div class="subMenu" id="downTown">
+                    <option id="rel" onclick="FilterRel()" class="rightsort show" value="rel"><a href="#">Relevance</a>
+                    </option>
+                    <option id="lth" onclick="FilterLth()" class="rightsort show" value="lth"><a href="#">Price Low To
+                            High</a></option>
+                    <option id="htl" onclick="FilterHtl()" class="rightsort show" value="htl"><a href="#">Price High To
+                            Low</a></option>
+                    <option id="nto" onclick="FilterNto()" class="rightsort show" value="nto"><a href="#">Products New To
+                            Old</a></option>
+
+                </div>
+            </div>
+        </div>
+        <h2 class="rotate">&#11088 Reviews</h2>
+        <div class="container">
+            <div class="menu-bar">
+                <ul>
+                    <li class="menu1 menu genderHead"> <a onclick="drop1()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">GENDER</h1>
+                        </a>
+                        <div class="subMenu show" id="down1">
+                            <div class="arrange">
+                                <div>
+                                    <option id="selectMen" onclick="FilterMen()" class="top" value="men"><a
+                                            href="#">Men</a></option>
+                                </div>
+                                <div>
+                                    <p class="count">(690)</p>
+                                </div>
+                            </div>
+                            <div class="arrangeWomen border">
+                                <div>
+                                    <option id="selectWomen hidemen" value="women"><a href="#">Women</a>
+                                    </option>
+                                </div>
+                                <div>
+                                    <p class="count">(0)</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="menu2 menu"> <a onclick="drop2()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">BRAND</h1>
+                        </a>
+                        <div class="subMenu show" id="down2">
+                            <ul>
+                                <div class="arrangeTop">
+                                    <div>
+                                        <input onclick="FilterBlueSaint()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="BlueSaint" onclick="FilterBlueSaint()"
+                                            class="top" value="BLUE SAINT"><a href="#">Blue Saint</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(387)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="Filterkoovs()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="koovs" onclick="Filterkoovs()" class="top"
+                                            value="KOOVS"><a href="#">Koovs</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(325)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterFugazee()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="fugazee" onclick="FilterFugazee()"
+                                            class="top" value="FUGAZEE"><a href="#">FUGAZEE</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(58)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterK()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="k" onclick="FilterK()" class="top"
+                                            value="k"><a href="#">K Denim</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(155)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterKult()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="kult" onclick="FilterKult()" class="top" value="kult"><a
+                                                href="#">Kultprint</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(98)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterOne()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="one" onclick="FilterOne()" class="top" value="one/Zero"><a
+                                                href="#">One/Zero By Koovs</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(85)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand border">
+                                    <div>
+                                        <input onclick="FilterReal()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="real" onclick="FilterReal()" class="top" value="real"><a href="#">REALM</a>
+                                        </option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(169)</p>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu3 menu"> <a onclick="drop3()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">DISCOUNT</h1>
+                        </a>
+                        <div class="subMenu show" id="down3">
+                            <ul>
+                                <div class="arrangeDiscountTop">
+                                    <div>
+                                        <li class="top"><input class="check" type="checkbox"><a href="#">Above 80%</a>
+                                        </li>
+                                        </option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(10)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">70%-80%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(98)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">60%-70%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(169)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">50%-60%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(77)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">40%-50%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(150)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">30%-40%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(240)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">20%-30%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(67)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">10%-20%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(155)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeDiscount border">
+                                    <div>
+                                        <li><input class="check" type="checkbox"><a href="#">under 10%</a></li>
+                                    </div>
+                                    <div>
+                                        <p class="count">(144)</p>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu4 menu"> <a onclick="drop4()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">COLOR</h1>
+                        </a>
+                        <div class="subMenu show" id="down4">
+                            <ul class="grid">
+                                <!-- <option id="selectWomen" onclick="FilterWomen()" value="women"><a href="#">Women</a>
+                                </option> -->
+                                <li onclick="blue()" value="blue" class="color c1"></li>
+                                <li onclick="skyblue()" value="skyblue" class="color c6"></li>
+                                <li onclick="black()" value="black" class="color c11"></li>
+                                <li onclick="Fwhite()" value="white" class="color c13"></li>
+                                <li onclick="brown()" value="brown" class="color c14"></li>
+                                <li onclick="green()" value="green" class="color c15"></li>
+                                <li onclick="pink()" value="pink" class="color c22"></li>
+                                <li onclick="grey()" value="grey" class="color c27"></li>
+                                <li onclick="red()" value="red" class="color c28"></li>
+                                <li  onclick="orange()" value="orange" class="color c29"></li>
+                                <li onclick="darkGreen()" value="darkgreen" class="color c30"></li>
+                                <li onclick="darkblue()" value="darkblue" class="color c25"></li>
+                                <li class="color c2"></li>
+                                <li class="color c3"></li>
+                                <li class="color c4"></li>
+                                <li class="color c5"></li>
+                                <li class="color c7"></li>
+                                <li class="color c8"></li>
+                                <li class="color c9"></li>
+                                <li class="color c10"></li>
+                                <li class="color c12"></li>
+                                <li class="color c16"></li>
+                                <li class="color c17"></li>
+                                <li class="color c17"></li>
+                                <li class="color c18"></li>
+                                <li class="color c19"></li>
+                                <li class="color c20"></li>
+                                <li class="color c21"></li>
+                                <li class="color c23"></li>
+                                <li class="color c24"></li>
+                                <li class="color c26"></li>
+                                <li class="color c27"></li>
+                                <li class="color c31"></li>
+                                <li class="color c32"></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu5 menu"> <a onclick="drop5()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">STYLE</h1>
+                        </a>
+                        <div class="subMenu show" id="down5">
+                            <ul>
+                                <li class="top"><input class="check" type="checkbox"><a href="#">Shirts</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Jeans</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Shorts</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">T-shirts and Polo Shirts</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Coats and Jackets</a></li>
+                                <li><input class="check" type="checkbox"><a href="#">Jog Pants</a></li>
+                                <li class="border"><input class="check" type="checkbox"><a href="#">Trousers and
+                                        Chinos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu6 menu"> <a onclick="drop6()" href="#"><img class="arrow"
+                                src="https://img.icons8.com/ios-glyphs/50/000000/sort-down.png" />
+                            <h1 class="cat">SIZE</h1>
+                        </a>
+                        <div class="subMenu show" id="down6">
+                            <ul>
+                                <li class="top"><a href="#">S</a></li>
+                                <li><a href="#">M</a></li>
+                                <li><a href="#">L</a></li>
+                                <li><a href="#">XL</a></li>
+                                <li><a href="#">XXL</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="products" style="padding-left: 50px;">
+
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                <p class="tophead">TOP CATEGORIES</p>
+                <ul type="none">
+                    <li>Dresses for Girls</li>
+                    <li>Maxi Dresses</li>
+                    <li>Tops for Girls</li>
+                    <li>Women Jumpsuits</li>
+                    <li>Dungarees Dress</li>
+                    <li>Innerwear for Men</li>
+                    <li>Leggings</li>
+                    <li>Ladies Bags</li>
+                    <li>Women Shoes</li>
+                    <li>Trousers & Chinos</li>
+                    <li>Men Bags</li>
+                </ul>
+            </div>
+            <div>
+                <p class="tophead">CATEGORIES</p>
+                <ul type="none">
+                    <li>Hoodies & Sweatshirts</li>
+                    <li>Jog Pants</li>
+                    <li>Vests</li>
+                    <li>Polo Shirts</li>
+                    <li>T Shirts</li>
+                    <li>Shoes for Men</li>
+                    <li>Ripped Jeans</li>
+                    <li>Jeans for Girls</li>
+                    <li>Denim shirts</li>
+                    <li>Sling Bags</li>
+                </ul>
+            </div>
+            <div>
+                <p class="tophead">TOP BRANDS</p>
+                <ul type="none">
+                    <li>Nike</li>
+                    <li>New Look</li>
+                    <li>Only</li>
+                    <li>Vero Moda</li>
+                    <li>Femella</li>
+                    <li>Ax Paris</li>
+                    <li>Cover Story</li>
+                    <li>Catwalk88</li>
+                    <li>Being Human</li>
+                    <li>Levis</li>
+                </ul>
+            </div>
+            <div>
+                <p class="tophead">BRANDS</p>
+                <ul type="none">
+                    <li>Adidas Neo</li>
+                    <li>Jack & Jones</li>
+                    <li>Spring Break</li>
+                    <li>Flying Machine</li>
+                    <li>Adidas Originals</li>
+                    <li>Koovs</li>
+                    <li>Adidas Shoes</li>
+                    <li>Blue Saint</li>
+                    <li>Koovs Coupons & Offers</li>
+                </ul>
+            </div>
+            <div>
+                <p class="tophead">NEED HELP</p>
+                <ul type="none">
+                    <li>Contact Us</li>
+                    <li>Return Policy</li>
+                    <li>Shipping Information</li>
+                    <li>FAQs</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div>
+                <p class="topContact">CONTACT US</p>
+                <i class="far fa-envelope"></i> <span>care@2retail.in</span>
+                <p>
+                    <span class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                </p>
+                <img class="socialApp"
+                    src="https://cdn.shopify.com/s/files/1/0584/9399/3141/t/2/assets/app-store-3x.png?v=14565633158920663017" />
+                <img class="socialApp"
+                    src="https://cdn.shopify.com/s/files/1/0584/9399/3141/t/2/assets/google-play-3x.png?v=2259890004463361456" />
+            </div>
+        </div>
+        
+        
+        <p id="lastline">KOOVS.COM <span class="copyRight"><i class="far fa-copyright"></i></span> 2022 | All Rights reserved.</p>
+
+    </div>
+</body>
+</html>
+<script src="/scripts/mens.js"></script>
+<script src="https://kit.fontawesome.com/f5750a932a.js" crossorigin="anonymous"></script>

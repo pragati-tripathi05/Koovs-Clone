@@ -1,0 +1,566 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+  width: 94%;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header > div {
+  width: 33.2%;
+}
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  height: 24px;
+  width: auto;
+}
+#goto {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+#goto > a {
+  font-size: 14px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  margin-bottom: 0ch;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.bag {
+  font-size: 12px;
+  text-align: right;
+  margin-top: 0ch;
+  margin-right: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: right;
+  margin-right: 0px;
+  padding-right: 0px;
+  align-items: center;
+  margin-top: -15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.one {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  width: 100%;
+}
+.parallel {
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 25px;
+}
+img {
+  width: 100%;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.parallelDown {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 2s;
+}
+.parallelDown > div {
+  width: 23.7%;
+}
+.blog {
+  margin: 20px;
+}
+.quote {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+}
+.read {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.parallelDown:hover img {
+  transform: scale(1.1);
+}
+.webBody {
+  overflow: hidden;
+}
+.parallelDown img {
+  transition: transform 2s;
+  height: 150px;
+}
+
+.heading {
+  text-align: center;
+  background-color: #f6f6f8;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0px;
+}
+.container {
+  margin-top: 150px;
+}
+/* .addCart:hover{
+    background-color: white;
+    color: black;
+    height: 30px;
+} */
+.genderHead {
+  /* border: 1px solid black; */
+  padding-top: 40px;
+}
+.prodSort {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-top: 82px;
+  font-size: 14px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  border-bottom: 1px solid #d9d9dd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.arrange {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 30px;
+  padding-top: 20px;
+  align-items: baseline;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.count {
+  font-size: 14px;
+  color: #615f5f;
+}
+#hidemen{
+    font-size: 14px;
+    
+}
+.arrangeWomen {
+    color: #615f5f;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 30px;
+  padding-top: 20px;
+  align-items: baseline;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.arrangeTop {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.arrangeBrand {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.arrangeDiscountTop {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  align-items: baseline;
+  padding-top: 10px;
+  /* padding-top: 10px; */
+  padding-bottom: 0px;
+}
+.downArrow {
+  padding-left: 10px;
+}
+.arrangeDiscount {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -20px;
+}
+.rightsort {
+  /* border: 1px solid black; */
+  padding: 10px;
+  padding-left: 15px;
+  background-color: white;
+}
+.count {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  display: flex;
+}
+.menu-bar {
+  /* border: 1px solid black; */
+  width: 23%;
+}
+/* .menu6{
+    display: ;
+} */
+#products {
+  /* border: 1px solid black; */
+  width: 77%;
+}
+.prodSort img {
+  width: 15px;
+  position: absolute;
+  top: 17px;
+}
+.arrow {
+  width: 10px;
+}
+.rotate{
+    transform: rotate(270deg);
+    position: fixed;
+    left: -52px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    margin-left: 0px;
+    top: 48vh;
+    background-color: #333333;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /* border-top-right-radius: 15px; */
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.subMenu {
+  display: none;
+  /* transition: opacity 150ms ease-in-out; */
+}
+.menu-bar ul {
+  list-style: none;
+}
+.show {
+  display: block;
+  /* transition: all 0.3s ease, visibility 0s linear 0.3s; */
+  /* z-index: 1; */
+  transform: translateY(0);
+  transition-delay: 0s, 0s, 0.3s;
+  /* transition: opacity 150ms ease;
+  transform: 150ms ease; */
+}
+.border {
+  border-bottom: 1px solid #d9d9dd;
+  /* border-bottom: 1px solid #87878a; */
+  padding-bottom: 10px;
+}
+.menu {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.top {
+  margin-top: 15px;
+}
+.cat {
+  font-size: 15px;
+  display: inline;
+  margin-left: 5px;
+}
+.check {
+  margin-right: 10px;
+  background-image: url(https://img.icons8.com/windows/32/000000/checked-checkbox--v1.png);
+}
+.SortTop {
+  border: none;
+}
+#downTown {
+  position: absolute;
+  top: 50px;
+  width: 250px;
+  left: 80%;
+  /* display: none; */
+  border: 1px solid #d9d9dd;
+  border-top: none;
+  /* transform: translateY(-3em); */
+  z-index: 1;
+  transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+#downTown > ul > li {
+  padding: 10px;
+  list-style: none;
+}
+.downArrow {
+  margin-right: 20px;
+}
+.color {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.color:hover {
+  border: 1px solid black;
+  outline-offset: 5px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+  width: 90%;
+  margin-top: 10px;
+}
+.c30 {
+  background-color: forestgreen;
+}
+.c1 {
+  background-color: blue;
+}
+.c3 {
+  background-color: darkslateblue;
+}
+.c4 {
+  background-color: lavender;
+}
+.c5 {
+  background-color: maroon;
+}
+.c6 {
+  background-color: skyblue;
+}
+.c7 {
+  background-color: white;
+}
+.c8 {
+  background-color: silver;
+}
+.c9 {
+  background-color: white;
+}
+.c10 {
+  background-color: violet;
+}
+.c11 {
+  background-color: black;
+}
+.c12 {
+  background-color: aquamarine;
+}
+.c13 {
+  background-color: white;
+}
+.c14 {
+  background-color: sandybrown;
+}
+.c15 {
+  background-color: green;
+}
+.c16 {
+  background-color: beige;
+}
+.c17 {
+  background-color: maroon;
+}
+.c18 {
+  background-color: khaki;
+}
+.c19 {
+  background-color: purple;
+}
+.c20 {
+  background-color: olivedrab;
+}
+.c21 {
+  background-color: crimson;
+}
+.c22 {
+  background-color: pink;
+}
+.c23 {
+  background-color: sandybrown;
+}
+.c24 {
+  background-color: yellow;
+}
+.c25 {
+  background-color: midnightblue;
+}
+.c26 {
+  background-color: brown;
+}
+.c27 {
+  background-color: darkgrey;
+}
+.c28 {
+  background-color: red;
+}
+.c29 {
+  background-color: orange;
+}
+.c31 {
+  background-color: #fff;
+}
+.c32 {
+  background-color: #fff;
+}
+#products {
+  padding-left: 80px;
+  padding-right: 10px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+option:hover {
+  cursor: pointer;
+}
+.bag{
+    position: relative;
+}
+.bagC{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* padding-top: 3px; */
+}
+.countPlace1{
+    top: 15px;
+    left: 92.5%;
+}
+.countPlace2{
+    top: 15px;
+    left: 95.5%;
+}
+#footer{
+    width: 100%;
+    background-color: #f3f3f3;
+    color: #444342;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    text-align: left;
+}
+#footer > div{
+    justify-content: space-between;
+    width: 16%;
+    
+}
+.tophead{
+    /* color: #453a2d; */
+    color: black;
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 12px;
+}
+.socialIcon{
+    margin-top: 20px;
+}
+.topContact{
+    color: black;
+    font-weight: 900;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+li{
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+span{
+    font-size: 12px;
+}
+#bottomline{
+    color: #c9c9c9;
+}
+.social i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.fa-brands{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.fa-envelope{
+    margin-bottom: 20px;
+}
+.social{
+    width: 80%;
+    margin-left: 5px;
+}
+.socialApp{
+    width: 200px;
+}
+.copyRight{
+    width: 15px;
+    height: 15px;
+}
+#lastline{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+}

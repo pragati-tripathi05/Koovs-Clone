@@ -1,0 +1,530 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainlogo {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.rotate{
+    transform: rotate(270deg);
+    position: fixed;
+    right: 1230px;
+    width: 12%;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    margin-left: -383px;
+    top: 48vh;
+ 
+    background-color: #333333;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /* border-top-right-radius: 15px; */
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+img {
+    width: auto;
+    height: 100%;
+    margin: auto;
+    /* margin-top: 5px; */
+}
+
+.cartSection, .empty{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blue; */
+    margin-top: 15px;
+    margin-right: -50px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.wish {
+    margin-top: 10px;
+}
+
+.wish > p {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.wish > a > p {
+    font-size: 10px;
+    margin-top: -5px;
+
+}
+.pe-7s-user{
+    margin-top: -20px;
+    color: black;
+}
+
+.navbar {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua;     */
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* popuplogin */
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    text-decoration: none;
+    color: white;
+    background-color: #070707;
+    width: 150px;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  top: 50;
+  right: 15px;
+  background-color: white;
+  /* border: 3px solid red; */
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 400px;
+  padding: 60px;
+  /* background-color: red; */
+  margin-right: 400px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #f16c13;
+    border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom:10px;
+  /* opacity: 0.8; */
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  width: 15%;
+  padding: 1%;
+  background-color: #04AA6D;
+  border-radius: 2px;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover {
+  opacity: 1;
+}
+input{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding: 4%;
+}
+
+/* popupbutton styles end */
+
+
+
+span > a, .navbar > a, .bag > a{
+    color: #222222;
+}
+
+hr {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#bottomline{
+    margin-top: 75px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heading{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#signup{
+    display: block;
+    margin: auto;
+    width: 50%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    box-shadow: 0px 0px 6px 0px #cccccc;
+    border-radius: 4px;
+}
+
+#customer{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    background-color: #333333;
+    /* width: 150px; */
+    /* padding: 15px; */
+    display: block;
+    margin: auto;
+    border: none;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button > a{
+    font-size: 14px;
+    padding: 10%;
+    width: 150px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5px;
+}
+#subhead{
+    color: #333333;
+    text-align: center;
+    margin-top: -25px;
+}
+#asterisk{
+    color: red;
+}
+form {
+    width:400px;
+    margin: auto;
+    padding: 2%; 
+    color: #333333;
+}
+input {
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 5px;
+    width: 70%;
+}
+#submit {
+    width: 30%;
+     margin: auto;
+    border: 2px solid #333333;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2%;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#subhead a{
+    text-decoration: none;
+}
+.signin{
+    text-align: center;
+    margin-top: -5px;
+    color: #333333;
+}
+
+/* footer styles */
+
+#footer{
+    width: 95%;
+    background-color: #f3f3f3;
+    color: #444342;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#footer > div{
+    justify-content: space-between;
+    width: 16%;
+    
+}
+.tophead{
+    /* color: #453a2d; */
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 12px;
+}
+.topheadcontact{
+    background-color: #f3f3f3;
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 12px;
+    color: black;
+}
+li{
+    text-align: left;
+    font-size: 12px;
+}
+span{
+    font-size: 12px;
+}
+#bottomline{
+    color: #c9c9c9;
+}
+.social i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.social{
+    width: 80%;
+    margin-left: 5px;
+}
+#lastline{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* Media querscreen 
+    
+ Medium Screens */
+ @media all and (min-width:420px) and (max-width:720px)
+ {
+    .open-button {
+        width: 80px;
+        padding: 10px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 8px;
+    }
+    button > a{
+        font-size: 10px;
+        padding: 7%;
+        width: 100px;
+    }
+    form {
+        width:250px;
+        margin: auto;
+        padding: 2%; 
+        color: #333333;
+    }
+    input {
+        display: block;
+        margin: 15px 0px;
+        font-size: 14px;
+        padding: 3px;
+        width: 70%;
+    }
+    .signin{
+        font-size: 10px;
+    }
+    #footer{
+        width: 100%;
+        background-color: #f3f3f3;
+        color: #444342;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    #footer > div{
+        justify-content: space-evenly;
+        width: 10%;
+    }
+    .tophead{
+        /* color: #453a2d; */
+        color: black;
+        text-align: left;
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 4px;
+    }
+    .topheadcontact{
+        background-color: #f3f3f3;
+        margin-right: 5px;
+        font-weight: 800;
+        font-size: 10px;
+        color: black;
+        width: 12%;
+        margin-right: -50px;
+    }
+    li{
+        text-align: right;
+        font-size: 4px;
+    }
+    span{
+        font-size: 4px;
+    }
+    .social i{
+        margin-right: 4px;
+        font-size: 4px;
+    }
+    .social{
+        width: 40%;
+        margin-left: 5px;
+    }
+    #lastline{
+        margin-top: 8px;
+        font-size: 7px;
+        text-align: center;
+    }
+    .topContact{
+        font-size: 6px;
+    }
+    .socialApp{
+        width: 5%;
+      }
+ }
+
+
+ /* Small Screens */
+ @media all and (min-width:80px) and (max-width:419px)
+ {
+    .open-button {
+        width: 50px;
+        padding: 5px;
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
+        font-size: 5px;
+    }
+    button > a{
+        font-size: 10px;
+        padding: 4%;
+        width: 55px;
+    }
+    form {
+        width:100px;
+        margin: auto;
+        padding: 1%; 
+        color: #333333;
+    }
+    input {
+        display: block;
+        margin: 7px 0px;
+        font-size: 8px;
+        padding: 2px;
+        width: 40%;
+    }
+    #submit{
+        font-size: 7px;
+        padding: 1%;
+    }
+    .signin{
+        font-size: 7px;
+    }
+    #footer{
+        width: 70%;
+        background-color: #f3f3f3;
+        color: #444342;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    #footer > div{
+        justify-content: space-between;
+        width: 3%;
+        height: 500px;
+    }
+    .tophead{
+        /* color: #453a2d; */
+        color: black;
+        text-align: left;
+        margin-left: 10px;
+        font-weight: 200;
+        font-size: 2px;
+    }
+    .topheadcontact{
+        background-color: #f3f3f3;
+        margin-right: 5px;
+        font-weight: 800;
+        font-size: 7px;
+        color: black;
+        width: 10%;
+        margin-right: -50px;
+    }
+    li{
+        text-align: right;
+        font-size: 1px;
+    }
+    span{
+        font-size: 1px;
+    }
+    .social i{
+        margin-right: 2px;
+        font-size: 1px;
+    }
+    .social{
+        width: 15%;
+        margin-left: 2px;
+    }
+    #lastline{
+        margin-top: 5px;
+        font-size: 4px;
+        text-align: center;
+    }
+    .topContact{
+        font-size: 2px;
+    }
+    .socialApp{
+        width: 25%;
+      }
+ }
