@@ -60,8 +60,8 @@ This project is a team effort, made during unit-2 of masai school.
 
 ## Tech Stack
 
-**HTML** 
+**HTML:** 58.9%
 
-**CSS** 
+**CSS:** 25.3%
 
-**JavaScript**
+**JavaScript:** 15.8%
