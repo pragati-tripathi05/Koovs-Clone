@@ -1,0 +1,271 @@
+body {
+    font-family: 'Poppins';
+}
+
+.mainlogo {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+img {
+    width: auto;
+    height: 100%;
+    margin: auto;
+    /* margin-top: 5px; */
+}
+
+.cartSection, .empty{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blue; */
+    margin-top: 15px;
+    margin-right: -200px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.wish {
+    margin-top: 10px;
+}
+
+.wish > p {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.wish > a > p {
+    font-size: 10px;
+    margin-top: -5px;
+
+}
+.pe-7s-user{
+    margin-top: -20px;
+}
+
+
+.navbar {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua;     */
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.shop1,.shop2,.shop3,.shop4 {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.shop1 > img,.shop2 > img,.shop3 > img,.shop4 > img {
+    width: 95%;
+    /* margin: auto; */
+}
+
+.shop2 {
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+
+.shopGrid {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 20px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+.shopGrid > img {
+    width: 95%;
+}
+
+.shopGrid2 {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 10px;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 30px;
+}
+.shopGrid2 > img {
+    width: 95%;
+}
+
+h2 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    /* background-color: green; */
+}
+
+.shopGrid3 {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,410px);
+    gap: 15px;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+.gif {
+    width: 100%;
+    height: 75%;
+}
+
+.shopGrid3 > div > p {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+
+/* footer */
+
+#footer{
+    width: 95%;
+    background-color: #f3f3f3;
+    color: #444342;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#footer > div{
+    justify-content: space-between;
+    width: 16%;
+
+}
+.tophead{
+    /* color: #453a2d; */
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 12px;
+}
+li{
+    text-align: left;
+    font-size: 12px;
+}
+span{
+    font-size: 12px;
+}
+#bottomline{
+    color: #c9c9c9;
+}
+.social i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.social{
+    width: 80%;
+    height: auto;
+    margin-left: 5px;
+}
+#lastline{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+p + i {
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 80px) and (max-width: 720px) {
+    .shopGrid {
+        width: 95%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6,auto);
+        gap: 20px;
+        justify-content: space-evenly;
+        /* border: 1px solid red; */
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    .shopGrid > img {
+        width: 95%;
+    }
+
+    .shopGrid2 {
+        width: 95%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,auto);
+        gap: 10px;
+        justify-content: space-evenly;
+        /* border: 1px solid red; */
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .shopGrid2 > img {
+        width: 95%;
+    }
+
+    .shopGrid3 {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,410px);
+        gap: 15px;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+        text-align: center;
+    }
+
+}

@@ -4,16 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account - Koovs</title>
-    <link rel = "stylesheet" href="/styles/accountSignin.css"/>
-    <link rel = "stylesheet" href="/styles/index.css"/>
-    <link rel="shortcut icon" type="image/png" href="//cdn.shopify.com/s/files/1/0584/9399/3141/files/favicon-32x32_32x.png?v=1627207424">
-    <link rel="stylesheet" href="/styles/Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="path/to/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set">
-    
+    <title>Create Account - Koovs</title>
+    <link rel = "stylesheet" href="account.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/24c494a6b6.js"
@@ -21,59 +16,33 @@
     ></script>
 </head>
 <body>
-    <div class="mainlogo">
-        <div class="empty"></div>
-        <a href='/layouts/index.html'><img alt="titlelogo" src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663"/></a>
-        <div class="cartSection">
-            <span><i class="pegk pe-7s-search"></i></span>
-            <span><a href="/layouts/accountSignin.html"><i class="pegk pe-7s-user"></i></a></span>
-            <div class="bag">
-                <a href=#>    
-                    <span><i class="pegk pe-7s-like pr icon"></i></span>
-                    <p class="bag">wishlist</p>
-                    <div class="bagC countPlace1">0</div>
-                </a>
-            </div>
-            <div class="bag">
-                <a href="/bag.html">
-                    <span><i class="pegk pe-7s-shopbag pr icon"></i></span>
-                    <p class="bag">BAG</p>
-                    <div class="bagC countPlace2">0</div>
-                </a>
-            </div>
-        </div>
+    <img src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663" id="name"/>
+    
+    <div id="links">
+        <div><a href=#>MEN</a></div>
+        <div><a href=#>WOMEN</a></div>
+        <div><a href=#>THE BLOG</a></div>
+        <div><a href=#>KOOVSXYOU</a></div>
+        <div><a href="instyleof.html">IN STYLE OF</a></div>
     </div>
-    <div class="navbar">
-        <a href="/layouts/mens.html">MEN</a>
-        <a href="women.html">WOMEN</a>
-        <a>THE BLOG</a>
-        <a>KOOVSXYOU</a>
-        <a href="/layouts/inStyleOf.html">IN STYLE OF</a>
-    </div>
-    <h2 class="rotate">&#11088 Reviews</h2>
+
     <div id="signup"> 
-        <p id="heading">Sign In or Sign Up</p>  </h1> 
-        <hr />
-        <p id="customer"> ARE YOU EXISTING CUSTOMER?</p>
-        <!-- <button> <a href="#">Login With Mobile</a></button> -->
-
-        <button class="open-button" onclick="openForm()">Login With Mobile</button>
-
-        <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-            <h1>MOBILE VERIFICATION</h1>
-
-            <label for="email"><b>Enter your registered contact number to login.</b></label>
-            <input type="number" id="mob" placeholder="Enter mobile number" name="email" required>
-
-            <button type="submit" class="btn" id="mob">NEXT</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        <h1> Sign Up  </h1> 
+        <p id="subhead"> Sign up to get access to exciting offers and promotions</p>
+        <form>
+            <label for="">First Name <span id="asterisk">*</span></label><br />
+            <input type="text" id="fname"/>
+            <label for="">Last Name </label><br>
+            <input type="text" id="lname"/>
+            <label for="">Email <span id="asterisk">*</span></label><br>
+            <input type="email" id="email"/>
+            <label for="">Password <span id="asterisk">*</span></label><br>
+            <input type="password" id="pass"/>
+            <label for="">Mobile Number <span id="asterisk">*</span></label><br>
+            <input type="number" id="mob"/>
+            <input type="submit" id="submit" value="Sign up"/>
         </form>
-        </div>
-
-        <hr />
-        <p id="customer"> ARE YOU NEW CUSTOMER?</p>
-        <button> <a href="signup.html">Create Account</a></button>
+        <a href="account.html"> <p class="signin"> Already have an account? Sign In </p> </a>
     </div>
     <hr id="bottomline"/>
     
@@ -152,8 +121,8 @@
                 </ul>
             </div>
             <div>
-                <p class="topheadcontact">CONTACT US</p>
-                ✉ care@2retail.in</span>
+                <p class="tophead">CONTACT US</p>
+                <i class="fa-thin fa-envelope"></i> <span>care@2retail.in</span>
                 <p>
                     <span class="social">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -167,8 +136,28 @@
             </div>
         </div>
 
-        <p id="lastline">KOOVS.COM © 2022 | All Rights reserved.</p>
+        <p id="lastline">KOOVS.COM <i class="fa-light fa-copyright"></i> 2022 | All Rights reserved.</p>
 </body>
 </html>
 
-<script src="/scripts/accountSignin.js"></script>
+<script>
+    document.querySelector("form").addEventListener("submit",upfun);
+    var cred = JSON.parse(localStorage.getItem("userCreds")) || [];
+
+    function upfun()
+    {
+        event.preventDefault();
+
+        var userObj= {
+            fname : document.querySelector("#fname").value,
+            lname : document.querySelector("#lname").value,
+            email : document.querySelector("#email").value,
+            password : document.querySelector("#pass").value,
+            mobnum : document.querySelector("#mob").value,
+        };
+        console.log(userObj);
+        cred.push(userObj);
+        console.log(cred);
+        localStorage.setItem("userCreds",JSON.stringify(cred));
+    }
+</script>

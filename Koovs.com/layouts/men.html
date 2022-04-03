@@ -4,80 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account - Koovs</title>
-    <link rel = "stylesheet" href="/styles/accountSignin.css"/>
-    <link rel = "stylesheet" href="/styles/index.css"/>
+    <title>Men - Koovs</title>
     <link rel="shortcut icon" type="image/png" href="//cdn.shopify.com/s/files/1/0584/9399/3141/files/favicon-32x32_32x.png?v=1627207424">
     <link rel="stylesheet" href="/styles/Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/styles/men.css">
     <link rel="stylesheet" href="path/to/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-    <script
+</head>
+<script
       src="https://kit.fontawesome.com/24c494a6b6.js"
       crossorigin="anonymous"
     ></script>
-</head>
+
 <body>
     <div class="mainlogo">
         <div class="empty"></div>
-        <a href='/layouts/index.html'><img alt="titlelogo" src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663"/></a>
+        <img alt="titlelogo" src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663"/>
         <div class="cartSection">
             <span><i class="pegk pe-7s-search"></i></span>
-            <span><a href="/layouts/accountSignin.html"><i class="pegk pe-7s-user"></i></a></span>
+            <span><a href="inORup.html"><i class="pegk pe-7s-user"></i></a></span>
             <div class="bag">
-                <a href=#>    
-                    <span><i class="pegk pe-7s-like pr icon"></i></span>
-                    <p class="bag">wishlist</p>
-                    <div class="bagC countPlace1">0</div>
+                <a href="bag.html">    
+                <span><i class="pegk pe-7s-like pr"></i></span>
+                <p>wishlist</p>
                 </a>
             </div>
             <div class="bag">
-                <a href="/bag.html">
-                    <span><i class="pegk pe-7s-shopbag pr icon"></i></span>
-                    <p class="bag">BAG</p>
-                    <div class="bagC countPlace2">0</div>
+                <a href="bag.html">
+                    <span><i class="pegk pe-7s-shopbag pr"></i></span>
+                    <p>BAG</p>
                 </a>
             </div>
         </div>
     </div>
     <div class="navbar">
-        <a href="/layouts/mens.html">MEN</a>
+        <a href="men.html">MEN</a>
         <a href="women.html">WOMEN</a>
         <a>THE BLOG</a>
         <a>KOOVSXYOU</a>
-        <a href="/layouts/inStyleOf.html">IN STYLE OF</a>
+        <a>IN STYLE OF</a>
     </div>
-    <h2 class="rotate">&#11088 Reviews</h2>
-    <div id="signup"> 
-        <p id="heading">Sign In or Sign Up</p>  </h1> 
-        <hr />
-        <p id="customer"> ARE YOU EXISTING CUSTOMER?</p>
-        <!-- <button> <a href="#">Login With Mobile</a></button> -->
+    <div class="choose">
+        <select id="sort" onchange="sortByPrice()">
+            <option value="">Sort By</option>
+            <option value="lth">Price Low to High</option>
+            <option value="htl">Price High to Low</option>
+            <option value="nto">Products New to Old</option>
+        </select>
+        <select id="category" onchange="specificProduct()">
+            <option value="">Choose Category</option>
+            <option value="T-shirts">T-shirts</option>
+            <option value="Jackets">Jackets</option>
+            <option value="Denim">Denim</option>
+            <option value="shirts">Shirts</option>
+            <option value="footwear">Footwear</option>
+        </select>
+    </div>
 
-        <button class="open-button" onclick="openForm()">Login With Mobile</button>
-
-        <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-            <h1>MOBILE VERIFICATION</h1>
-
-            <label for="email"><b>Enter your registered contact number to login.</b></label>
-            <input type="number" id="mob" placeholder="Enter mobile number" name="email" required>
-
-            <button type="submit" class="btn" id="mob">NEXT</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
+    <div class="container">
+        <div class="menu-bar">
+            
         </div>
+        <div class="products"></div>
 
-        <hr />
-        <p id="customer"> ARE YOU NEW CUSTOMER?</p>
-        <button> <a href="signup.html">Create Account</a></button>
-    </div>
-    <hr id="bottomline"/>
-    
-        <!-- footer -->
 
         <div id="footer">
             <div>
@@ -152,8 +143,8 @@
                 </ul>
             </div>
             <div>
-                <p class="topheadcontact">CONTACT US</p>
-                ✉ care@2retail.in</span>
+                <p class="tophead">CONTACT US</p>
+                <i class="pegk pe-7s-mail"></i> <span>care@2retail.in</span>
                 <p>
                     <span class="social">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -166,9 +157,16 @@
                 <img class="social" src="https://cdn.shopify.com/s/files/1/0584/9399/3141/t/2/assets/google-play-3x.png?v=2259890004463361456"/>
             </div>
         </div>
-
+        
+    
         <p id="lastline">KOOVS.COM © 2022 | All Rights reserved.</p>
+    
+    
+    
 </body>
-</html>
 
-<script src="/scripts/accountSignin.js"></script>
+</html>
+<script src="/scripts/men.js"></script>
+
+
+
