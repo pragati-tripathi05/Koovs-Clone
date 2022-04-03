@@ -90,7 +90,7 @@ body {
 
 #parentdiv{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 #parentdiv .products{
     margin-top: 40px;
@@ -104,14 +104,14 @@ body {
 #cartleft{
     /* border: 1px solid red; */
     height: auto;
-    margin-left:65px ;
+    margin-left:95px ;
     box-sizing: border-box;
     overflow: hidden;
-    width: 60%;
+    width: 40%;
     margin-top: -50px;
 }
 #cartright{
-    width: 35%;
+    width: 40%;
     /* border: 1px solid blue; */
     height: 600px;
     margin-top: 15px;
@@ -167,7 +167,7 @@ body {
     background-color: white;
     display: inline-block;
     text-align: center;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 #estimatebox{
@@ -348,6 +348,13 @@ span{
         font-size: 7px;
         text-align: center;
     }
+    .topContact{
+        font-size: 6px;
+    }
+    
+    .socialApp{
+        width: 45%;
+      }
 }
 
 /* Small Screens */
@@ -469,4 +476,10 @@ span{
         font-size: 4px;
         text-align: center;
     }
+    .topContact{
+        font-size: 2px;
+    }
+    .socialApp{
+        width: 25%;
+      }
 }

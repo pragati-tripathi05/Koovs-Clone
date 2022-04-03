@@ -426,6 +426,12 @@ span{
         font-size: 7px;
         text-align: center;
     }
+    .topContact{
+        font-size: 6px;
+    }
+    .socialApp{
+        width: 5%;
+      }
  }
 
 
@@ -515,4 +521,10 @@ span{
         font-size: 4px;
         text-align: center;
     }
+    .topContact{
+        font-size: 2px;
+    }
+    .socialApp{
+        width: 25%;
+      }
  }

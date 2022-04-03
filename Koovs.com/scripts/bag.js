@@ -35,7 +35,7 @@ function displayData(cartProducts) {
         priceRem.style.marginTop="-30px"
 
         var pPrice = document.createElement("span");
-        pPrice.innerText = elem.price;
+        pPrice.innerText = "₹" + elem.price;
         pPrice.style.fontWeight = "bold";
 
         //remove button
@@ -75,3 +75,13 @@ function removeItem(elem,index){
     window.location.reload();
     //displayData(cartProducts);
 }
+
+function FilterK() {
+    var filteredList = shop.filter(function (elem) {
+        return elem.brand == "K Denim"
+    })
+    displayData(filteredList)
+}
+
+document.querySelector(".countPlace2").innerText = cartProducts.length;
+

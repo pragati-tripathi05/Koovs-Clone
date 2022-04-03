@@ -32,28 +32,6 @@ function SortDown() {
 var shop = [
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1826_360x.jpg?v=1640680368",
-        gender: "women",
-        brand: "BLUE SAINT",
-        color: "skyblue",
-        size: "s",
-        name: "Casual Wear Front Knot Sky Blue Denim Shirt",
-        price: "480",
-        strikedoffprice: "1199",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/157258_5256a56a4fa24cb1806d7b5f64be729b_image1_zoom_360x.jpg?v=1631104736",
-        gender: "women",
-        brand: "BLUE SAINT",
-        color: "black",
-        size: "s",
-        name: "Solid Basic Berry Blue Casual Wear Perfect Fit Shirt",
-        price: "280",
-        strikedoffprice: "499",
-    },
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/161660_8dd9306099884f08ac83e9833a476c66_image1_zoom_360x.jpg?v=1631103586",
         gender: "men",
         brand: "BLUE SAINT",
@@ -62,39 +40,6 @@ var shop = [
         name: "Side Tape Slim Fit Jogger",
         price: "550",
         strikedoffprice: "999",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/167588_f20d9c065ab64b2e8233a9594dae30d4_image1_zoom_360x.jpg?v=1631125517",
-        gender: "women",
-        brand: "KOOVS",
-        color: "green",
-        size: "s",
-        name: "Koovs Elasticated Waist Regular Fit Shorts",
-        price: "420",
-        strikedoffprice: "699",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/166633_c72338e015b645bcbcc170f1205e377d_front_zoom_360x.jpg?v=1630508525",
-        gender: "women",
-        brand: "KOOVS",
-        color: "black",
-        size: "s",
-        name: "Strappy Crop Top",
-        price: "520",
-        strikedoffprice: "599",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/166783_61ddaca506f94554b918cb76f3e81f61_image1_zoom_360x.jpg?v=1631106402",
-        gender: "women",
-        brand: "KOOVS",
-        color: "orange",
-        size: "s",
-        name: "Hustle Smarter Text Print T-Shirt",
-        price: "520",
-        strikedoffprice: "699",
     },
     {
         image_url:
@@ -109,17 +54,6 @@ var shop = [
     },
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1387_360x.jpg?v=1640347833",
-        gender: "women",
-        brand: "REALM",
-        color: "skyblue",
-        size: "s",
-        name: "Overcoat Style Denim Jacket Casual Winter Wear",
-        price: "720",
-        strikedoffprice: "3599",
-    },
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/161672_aff8701ee02542ebafea272b68255eb7_image1_zoom_360x.jpg?v=1631103565",
         gender: "men",
         brand: "BLUE SAINT",
@@ -128,39 +62,6 @@ var shop = [
         name: "Basic Casual Slim Fit Jogger",
         price: "550",
         strikedoffprice: "999",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/166046_360464ee3aa34d68a5e9c5e2d9e55e61_front_zoom_360x.jpg?v=1630508717",
-        gender: "women",
-        brand: "KOOVS",
-        color: "black",
-        size: "s",
-        name: "One-Shoulder Casual Blouse",
-        price: "690",
-        strikedoffprice: "999",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/167383_48f7b42110e541e384bb2479feacc361_image1_zoom_360x.jpg?v=1643366832",
-        gender: "women",
-        brand: "KOOVS",
-        color: "pink",
-        size: "s",
-        name: "Koovs Strappy Cropped Top",
-        price: "290",
-        strikedoffprice: "599",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0865_360x.jpg?v=1640347832",
-        gender: "women",
-        brand: "REALM",
-        color: "pink",
-        size: "s",
-        name: "Baby Pink Love Casual Wear Denim Jacket",
-        price: "800",
-        strikedoffprice: "3999",
     },
     {
         image_url:
@@ -186,17 +87,6 @@ var shop = [
     },
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0766_360x.jpg?v=1640347831",
-        gender: "women",
-        brand: "REALM",
-        color: "grey",
-        size: "s",
-        name: "Spotted Casual Wear White Denim Jacket",
-        price: "840",
-        strikedoffprice: "4199",
-    },
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1352_360x.jpg?v=1643171045",
         gender: "men",
         brand: "KOOVS",
@@ -208,17 +98,6 @@ var shop = [
     },
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A0724_360x.jpg?v=1640347831",
-        gender: "women",
-        brand: "REALM",
-        color: "white",
-        size: "s",
-        name: "Snow Flakes Print Casual Wear Street Denim",
-        price: "549",
-        strikedoffprice: "2949",
-    },
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2223_360x.jpg?v=1643175668",
         gender: "men",
         brand: "KOOVS",
@@ -227,17 +106,6 @@ var shop = [
         name: "Luxe Revre Collar Satin Shirt.",
         price: "1259",
         strikedoffprice: "1799",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A2373_360x.jpg?v=1640347829",
-        gender: "women",
-        brand: "REALM",
-        color: "black",
-        size: "s",
-        name: "Tropical Green Casual Wear Solid Print Jacket",
-        price: "760",
-        strikedoffprice: "3799",
     },
     {
         image_url:
@@ -406,39 +274,6 @@ var shop = [
     },
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/157410_c7bff15c0d984e03a4afa85def0d57b2_image1_zoom_360x.jpg?v=1631111173",
-        gender: "women",
-        brand: "BLUE SAINT",
-        color: "white",
-        size: "s",
-        name: "Heart-Rose Print T-Shirt",
-        price: "280",
-        strikedoffprice: "399",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A1041_360x.jpg?v=1640680365",
-        gender: "women",
-        brand: "BLUE SAINT",
-        color: "blue",
-        size: "s",
-        name: "Blue White Striped Strechable Casual Off Shoulder Top",
-        price: "240",
-        strikedoffprice: "399",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/157540_36813bb67e734ddda42ab866f412a4a8_front_zoom_360x.jpg?v=1630505709",
-        gender: "women",
-        brand: "BLUE SAINT",
-        color: "black",
-        size: "s",
-        name: "Back Lace Round Neck Top",
-        price: "690",
-        strikedoffprice: "999",
-    },
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/169023_bb1130fd364547a1a9430efecae28ed2_image1_zoom_360x.jpg?v=1631124840",
         gender: "men",
         brand: "FUGAZEE",
@@ -469,17 +304,6 @@ var shop = [
         name: "Soda Crown Shorts",
         price: "990",
         strikedoffprice: "1299",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_2470_360x.jpg?v=1634749554",
-        gender: "women",
-        brand: "One/Zero By Koovs",
-        color: "pink",
-        size: "s",
-        name: "One/Zero Basic Crew Neck Oversized T-Shirt",
-        price: "450",
-        strikedoffprice: "799",
     },
     {
         image_url:
@@ -546,17 +370,6 @@ var shop = [
         name: "Satin Weave Cotton Trouser Back Welt Pocket With Flap",
         price: "1159",
         strikedoffprice: "1999",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/A07A9761_360x.jpg?v=1644468224",
-        gender: "women",
-        brand: "ONE/ZERO BY KOOVS",
-        color: "white",
-        size: "s",
-        name: "Phone Pocket Printed Leggings",
-        price: "1799",
-        strikedoffprice: "2799",
     },
     {
         image_url:
@@ -637,39 +450,6 @@ var shop = [
     },
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/169227_3a412147b9c146d18ef189c5a3de0c54_image1_zoom_360x.jpg?v=1631125070",
-        gender: "women",
-        brand: "K Denim",
-        color: "grey",
-        size: "s",
-        name: "K Denim Koovs Curved Hem Paperbag Shorts",
-        price: "750",
-        strikedoffprice: "1199",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/169175_0d8b328ced20407a91b967ddee49664f_image1_zoom_360x.jpg?v=1631125172",
-        gender: "women",
-        brand: "K Denim",
-        color: "blue",
-        size: "s",
-        name: "K Denim Koovs Dark Wash Belted Shorts",
-        price: "750",
-        strikedoffprice: "1199",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/169157_b9f75dccfdd44799a1a47dd6a4c05086_image1_zoom_360x.jpg?v=1631100547",
-        gender: "women",
-        brand: "K Denim",
-        color: "skyblue",
-        size: "s",
-        name: "Frayed Hem Light-Wash Jeans",
-        price: "850",
-        strikedoffprice: "1699",
-    },
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/170846_e8234b215ce840d7a2493fb691ad987e_image1_zoom_360x.jpg?v=1631102332",
         gender: "men",
         brand: "FUGAZEE",
@@ -714,50 +494,6 @@ var shop = [
     },
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165939_322c312a8b30441eacc30532cef031df_image1_zoom_360x.jpg?v=1644821648",
-        gender: "women",
-        brand: "One/Zero By Koovs",
-        color: "white",
-        size: "s",
-        name: "Reflective Logo Training T-Shirt",
-        price: "450",
-        strikedoffprice: "1199",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/163208_93be3e8750ab4b2789352d32568284b0_image1_zoom_360x.jpg?v=1631105827",
-        gender: "women",
-        brand: "One/Zero By Koovs",
-        color: "white",
-        size: "s",
-        name: "One/Zero Basic Crew Neck Oversized T-Shirt",
-        price: "250",
-        strikedoffprice: "499",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165874_9466b5eea71049b5a79df6b819af664a_image1_zoom_360x.jpg?v=1631106226",
-        gender: "women",
-        brand: "One/Zero By Koovs",
-        color: "yellow",
-        size: "s",
-        name: "Active Stretch Training T-Shirt",
-        price: "450",
-        strikedoffprice: "1199",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165943_2220659034d44d42a53c209bfd8719ff_image1_zoom_360x.jpg?v=1644821729",
-        gender: "women",
-        brand: "One/Zero By Koovs",
-        color: "white",
-        size: "s",
-        name: "Racerback Training Vest",
-        price: "450",
-        strikedoffprice: "899",
-    },
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_8250_360x.jpg?v=1634749616",
         gender: "men",
         brand: "KULTPRIT",
@@ -766,17 +502,6 @@ var shop = [
         name: "Kultprit Men'S Sleeveless T-Shirt",
         price: "550",
         strikedoffprice: "999",
-    },
-    {
-        image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165128_2efa05f54a11493495e21c820a22539f_image1_zoom_360x.jpg?v=1631108860",
-        gender: "women",
-        brand: "KULTPRIT",
-        color: "black",
-        size: "s",
-        name: "Basic Detachable Suspenders Jeans",
-        price: "750",
-        strikedoffprice: "1999",
     },
     {
         image_url:
@@ -813,18 +538,6 @@ var shop = [
     },
     {
         image_url:
-            "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/165950_2ad74677673c45dba6378df0e220051f_image1_zoom_360x.jpg?v=1631115718",
-        gender: "women",
-        brand: "One/Zero By Koovs",
-        color: "white",
-        size: "s",
-        name: "Color Block Training T-Shirt",
-        price: "450",
-        strikedoffprice: "899",
-    },
-
-    {
-        image_url:
             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/161672_aff8701ee02542ebafea272b68255eb7_image1_zoom_360x.jpg?v=1631103565",
         gender: "men",
         brand: "BLUE SAINT",
@@ -834,28 +547,14 @@ var shop = [
         price: "550",
         strikedoffprice: "999",
     },
-
+    
 
 ];
-
-// {
-//         image_url:
-//             "https://cdn.shopify.com/s/files/1/0584/9399/3141/products/IMG_3848_360x.jpg?v=1636526578",
-//         gender: "men",
-//         brand: "blue saint",
-//         color:"blue",
-//         size: "s",
-//         name: "Solid Basic Berry Blue Casual Wear Perfect Fit Shirt",
-//         price: "₹880",
-//         strikedoffprice: "₹2199",
-//     }
-
-//         relevace: "rel" --> add it randomly
 
 var cartProducts = JSON.parse(localStorage.getItem("cartData")) || [];
 
 shop.map(function (elem) {
-    displayData(shop)
+    displayData(shop);
 });
 
 function addToCart(elem) {
@@ -879,123 +578,140 @@ function FilterMen() {
     var filteredList = shop.filter(function (elem) {
         return elem.gender == selected;
     });
-    displayData(filteredList)
+    displayData(filteredList);
 }
 
 // <option id="BlueSaint" onclick="FilterBlueSaint()" class="top" value="bluesaint"><input class="check" type="checkbox"><a href="#">Blue Saint</a></option>
 
-function FilterBlueSaint() {
-    var selected = document.querySelector("#BlueSaint").value;
-
-    var filteredList = shop.filter(function (elem) {
-        return elem.brand == selected;
-    });
-    displayData(filteredList)
-}
-
 function blue(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "blue"
+        var print =  elem.color == "blue" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function skyblue(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "skyblue"
+        var print =  elem.color == "skyblue" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function grey(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "grey"
+        var print =  elem.color == "grey" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function pink(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "pink"
+        var print =  elem.color == "pink" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function darkblue(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "darkblue"
+        var print =  elem.color == "darkblue" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function black(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "black"
+        var print =  elem.color == "black" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function Fwhite(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "white"
+        var print =  elem.color == "white" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function orange(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "orange"
+        var print =  elem.color == "orange" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function brown(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "brown"
+        var print =  elem.color == "brown" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function red(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "red"
+        var print =  elem.color == "red" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 function green(){
     var filteredList = shop.filter(function(elem){
-        return elem.color == "green"
+        var print =  elem.color == "green" && elem.gender == "men"
+        return print
     })
-    displayData(filteredList)
+    displayData(filteredList);
 }
 
 // <input onclick="Filterkoovs()" class="check" type="checkbox"><option style="display: inline;" id="koovs" onclick="Filterkoovs()" class="top" value="KOOVS"><a href="#">Koovs</a></option>
 
+function FilterBlueSaint() {
+    var selected = document.querySelector("#BlueSaint").value;
+    var filteredList = shop.filter(function (elem) {
+        var print =  elem.brand == selected && elem.gender == "men"
+        return print
+    });
+    displayData(filteredList)
+}
+
 function Filterkoovs() {
     var filteredList = shop.filter(function (elem) {
-        return elem.brand == "KOOVS"
+        var print =  elem.brand == "KOOVS" && elem.gender == "men"
+        return print
     })
     displayData(filteredList)
 }
 function FilterFugazee() {
     var filteredList = shop.filter(function (elem) {
-        return elem.brand == "FUGAZEE"
+        var print =  elem.brand == "FUGAZEE" && elem.gender == "men"
+        return print
     })
     displayData(filteredList)
 }
 
 function FilterOne() {
     var filteredList = shop.filter(function (elem) {
-        return elem.brand == "One/Zero By Koovs"
+        var print =  elem.brand == "One/Zero By Koovs" && elem.gender == "men"
+        return print
     })
     displayData(filteredList)
 }
 function FilterReal() {
     var filteredList = shop.filter(function (elem) {
-        return elem.brand == "REALM"
+        var print =  elem.brand == "REALM" && elem.gender == "men"
+        return print
     })
     displayData(filteredList)
 }
 function FilterKult() {
     var filteredList = shop.filter(function (elem) {
-        return elem.brand == "KULTPRIT"
+        var  print =  elem.brand == "KULTPRIT" && elem.gender == "men"
+        return print
     })
     displayData(filteredList)
 }
 function FilterK() {
     var filteredList = shop.filter(function (elem) {
-        return elem.brand == "K Denim"
+        var print =  elem.brand == "K Denim" && elem.gender == "men"
+        return print
     })
     displayData(filteredList)
 }
@@ -1012,7 +728,7 @@ function FilterRel() {
 }
 
 function FilterLth() {
-    var selected = document.querySelector("#lth").value;
+    var selected = document.querySelector("#htl").value;
     var sortedList = shop.sort(function (a, b) {
         return a.price - b.price;
     });
@@ -1090,6 +806,12 @@ function displayData(shop) {
         striked.style.textDecoration = "line-through"
         var btn = document.createElement("button");
         btn.innerText = "Add to Cart";
+        btn.addEventListener("click", function () {
+            addToCart(elem);
+            window.location.reload();
+        });
+
+
         btn.innerText.color = "white"
         btn.style.fontFamily = "Poppins"
         btn.style.width = "100%"
@@ -1109,11 +831,11 @@ function displayData(shop) {
             btn.style.backgroundColor = "black"
         }
         // element.setAttribute("class", "democlass");
-        btn.addEventListener("click", function () {
-            addToCart(elem);
-            window.location.reload();
-            // <button onClick="window.location.reload();">
-        });
+        // btn.addEventListener("click", function () {
+        //     addToCart(elem);
+        //     window.location.reload();
+        //     // <button onClick="window.location.reload();">
+        // });
         var colorCir = document.createElement("div")
         // colorCir.innerText = elem.color
         colorCir.style.width = "30px"

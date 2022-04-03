@@ -31,7 +31,7 @@
                   otp.setAttribute("placeholder","Enter OTP");
 
                   alert("Login Success! Lets start shopping!");
-                  window.location.href = "/layouts/home.html";
+                  window.location.href = "/layouts/index.html";
                   break;
               }
               else

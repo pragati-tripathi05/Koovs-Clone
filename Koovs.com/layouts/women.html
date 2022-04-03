@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Poppins:wght@600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/styles/shoppingPage.css"/>
+    <link rel="stylesheet" href="/styles/women.css"/>
 </head>
 
 <body>
@@ -24,15 +24,14 @@
         <div class="header">
             <div></div>
             <div>
-                <div>
-                    <a href="/layouts/home.html">
-                        <img class="logo"
-                        src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663" alt="">
-                    </a>
+                <div><a href="/layouts/index.html">
+                    <img class="logo"
+                    src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663" alt="">
+                </a>
                 </div>
                 <div id="goto">
                     <a href="/layouts/mens.html">MEN</a>
-                    <a href="/layouts/women.html">WOMEN</a>
+                    <a href="/layouts/women.html"><b>WOMEN</b></a>
                     <a href="#">THE BLOG</a>
                     <a href="#">KOOVSXYOU</a>
                     <a href="/layouts/inStyleOf.html">IN STYLE OF</a>
@@ -40,7 +39,7 @@
             </div>
             <div class="icons">
                 <img class="icon" src="https://img.icons8.com/ios/50/000000/search--v1.png" />
-                <a href="/layouts/accountSignin.html"><img class="icon" src="https://img.icons8.com/ios/50/000000/user-male-circle.png" /></a>
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/user-male-circle.png" />
                 <div>
                     <img class="icon" src="https://img.icons8.com/ios/50/000000/like--v1.png" />
                     <p class="bag">wishlist</p>
@@ -87,8 +86,8 @@
                         <div class="subMenu show" id="down1">
                             <div class="arrange">
                                 <div>
-                                    <option id="selectMen" onclick="FilterMen()" class="top" value="men"><a
-                                            href="#">Men</a></option>
+                                    <option id="selectMen" onclick="FilterWomen()" class="top" value="men"><a
+                                            href="#">Women</a></option>
                                 </div>
                                 <div>
                                     <p class="count">(690)</p>
@@ -96,11 +95,11 @@
                             </div>
                             <div class="arrangeWomen border">
                                 <div>
-                                    <option id="selectWomen" onclick="FilterWomen()" value="women"><a href="#">Women</a>
+                                    <option id="selectWomen hidemen" value="women"><a href="#">Men</a>
                                     </option>
                                 </div>
                                 <div>
-                                    <p class="count">(334)</p>
+                                    <p class="count">(0)</p>
                                 </div>
                             </div>
 
@@ -280,7 +279,6 @@
                                 <li onclick="skyblue()" value="skyblue" class="color c6"></li>
                                 <li onclick="black()" value="black" class="color c11"></li>
                                 <li onclick="Fwhite()" value="white" class="color c13"></li>
-                                <li onclick="brown()" value="brown" class="color c14"></li>
                                 <li onclick="green()" value="green" class="color c15"></li>
                                 <li onclick="pink()" value="pink" class="color c22"></li>
                                 <li onclick="grey()" value="grey" class="color c27"></li>
@@ -288,6 +286,7 @@
                                 <li  onclick="orange()" value="orange" class="color c29"></li>
                                 <li onclick="darkGreen()" value="darkgreen" class="color c30"></li>
                                 <li onclick="darkblue()" value="darkblue" class="color c25"></li>
+                                <li onclick="brown()" value="brown" class="color c14"></li>
                                 <li class="color c2"></li>
                                 <li class="color c3"></li>
                                 <li class="color c4"></li>
@@ -440,8 +439,8 @@
                     src="https://cdn.shopify.com/s/files/1/0584/9399/3141/t/2/assets/google-play-3x.png?v=2259890004463361456" />
             </div>
         </div>
-
-
+        
+        
         <p id="lastline">KOOVS.COM <span class="copyRight"><i class="far fa-copyright"></i></span> 2022 | All Rights reserved.</p>
 
     </div>
@@ -449,6 +448,6 @@
 
 </html>
 
-<script src="/scripts/shoppingPage.js"></script>
+<script src="/scripts/women.js"></script>
 
-<script src="https://kit.fontawesome.com/f5750a932a.js" crossorigin="anonymous"></script> 
+<script src="https://kit.fontawesome.com/f5750a932a.js" crossorigin="anonymous"></script>

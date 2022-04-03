@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Poppins:wght@600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/styles/shoppingPage.css"/>
+    <link rel="stylesheet" href="/styles/mens.css"/>
 </head>
 
 <body>
@@ -24,23 +24,22 @@
         <div class="header">
             <div></div>
             <div>
-                <div>
-                    <a href="/layouts/home.html">
-                        <img class="logo"
-                        src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663" alt="">
-                    </a>
+                <div><a href="/layouts/index.html">
+                    <img class="logo"
+                    src="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/logo_240x.png?v=1627043663" alt="">
+                </a>
                 </div>
                 <div id="goto">
-                    <a href="/layouts/mens.html">MEN</a>
+                    <a href="#"><b>MEN</b></a>
                     <a href="/layouts/women.html">WOMEN</a>
                     <a href="#">THE BLOG</a>
                     <a href="#">KOOVSXYOU</a>
-                    <a href="/layouts/inStyleOf.html">IN STYLE OF</a>
+                    <a href="#">IN STYLE OF</a>
                 </div>
             </div>
             <div class="icons">
                 <img class="icon" src="https://img.icons8.com/ios/50/000000/search--v1.png" />
-                <a href="/layouts/accountSignin.html"><img class="icon" src="https://img.icons8.com/ios/50/000000/user-male-circle.png" /></a>
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/user-male-circle.png" />
                 <div>
                     <img class="icon" src="https://img.icons8.com/ios/50/000000/like--v1.png" />
                     <p class="bag">wishlist</p>
@@ -96,11 +95,11 @@
                             </div>
                             <div class="arrangeWomen border">
                                 <div>
-                                    <option id="selectWomen" onclick="FilterWomen()" value="women"><a href="#">Women</a>
+                                    <option id="selectWomen hidemen" value="women"><a href="#">Women</a>
                                     </option>
                                 </div>
                                 <div>
-                                    <p class="count">(334)</p>
+                                    <p class="count">(0)</p>
                                 </div>
                             </div>
 
@@ -144,42 +143,42 @@
                                 </div>
                                 <div class="arrangeBrand">
                                     <div>
-                                        <input onclick="FilterOne()" class="check" type="checkbox">
-                                        <option style="display: inline;" id="one" onclick="FilterOne()" class="top"
-                                            value="one/Zero"><a href="#">One/Zero By Koovs</a></option><br>
-                                    </div>
-                                    <div>
-                                        <p class="count">(85)</p>
-                                    </div>
-                                </div>
-                                <div class="arrangeBrand">
-                                    <div>
-                                        <input onclick="FilterReal()" class="check" type="checkbox">
-                                        <option style="display: inline;" id="real" onclick="FilterReal()" class="top"
-                                            value="real"><a href="#">REALM</a></option><br>
-                                    </div>
-                                    <div>
-                                        <p class="count">(169)</p>
-                                    </div>
-                                </div>
-                                <div class="arrangeBrand">
-                                    <div>
-                                        <input onclick="FilterKult()" class="check" type="checkbox">
-                                        <option style="display: inline;" id="kult" onclick="FilterKult()" class="top"
-                                            value="kult"><a href="#">Kultprint</a></option><br>
-                                    </div>
-                                    <div>
-                                        <p class="count">(98)</p>
-                                    </div>
-                                </div>
-                                <div class="arrangeBrand border">
-                                    <div>
                                         <input onclick="FilterK()" class="check" type="checkbox">
                                         <option style="display: inline;" id="k" onclick="FilterK()" class="top"
                                             value="k"><a href="#">K Denim</a></option><br>
                                     </div>
                                     <div>
                                         <p class="count">(155)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterKult()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="kult" onclick="FilterKult()" class="top" value="kult"><a
+                                                href="#">Kultprint</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(98)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand">
+                                    <div>
+                                        <input onclick="FilterOne()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="one" onclick="FilterOne()" class="top" value="one/Zero"><a
+                                                href="#">One/Zero By Koovs</a></option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(85)</p>
+                                    </div>
+                                </div>
+                                <div class="arrangeBrand border">
+                                    <div>
+                                        <input onclick="FilterReal()" class="check" type="checkbox">
+                                        <option style="display: inline;" id="real" onclick="FilterReal()" class="top" value="real"><a href="#">REALM</a>
+                                        </option><br>
+                                    </div>
+                                    <div>
+                                        <p class="count">(169)</p>
                                     </div>
                                 </div>
                             </ul>
@@ -440,15 +439,12 @@
                     src="https://cdn.shopify.com/s/files/1/0584/9399/3141/t/2/assets/google-play-3x.png?v=2259890004463361456" />
             </div>
         </div>
-
-
+        
+        
         <p id="lastline">KOOVS.COM <span class="copyRight"><i class="far fa-copyright"></i></span> 2022 | All Rights reserved.</p>
 
     </div>
 </body>
-
 </html>
-
-<script src="/scripts/shoppingPage.js"></script>
-
-<script src="https://kit.fontawesome.com/f5750a932a.js" crossorigin="anonymous"></script> 
+<script src="/scripts/mens.js"></script>
+<script src="https://kit.fontawesome.com/f5750a932a.js" crossorigin="anonymous"></script>

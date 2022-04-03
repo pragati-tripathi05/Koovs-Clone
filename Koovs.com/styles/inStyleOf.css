@@ -32,7 +32,7 @@
 #container{
   width: 95%;
   display: block;
-    margin: auto;
+  margin: auto;
 }
 .vertical{
   height: 1900px;
@@ -152,6 +152,108 @@ a {
   font-weight: 400;
 }
 
+/* Media Queries */
+@media all and (min-width:80px) and (max-width:600px)
+{
+  .logo {
+    margin-top: 18px;
+    height: 14px;
+    width: auto;
+  }
+  #goto > a {
+    font-size: 7px;
+  }
+  .vertical{
+    height: 00px;
+    width: 0%;
+  }
+  #top{ 
+    height: 250px;
+    margin-bottom: 160px;
+  }
+  
+  #second{
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 0px;
+    width: 60%;
+    gap: 15px;
+  }
+  #second img{
+    height: 400px;
+    width: 594px;
+  }
+  #third{
+    /* border: 2px solid red; */
+    height: 550px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  #abovefooter{
+    margin-bottom: -25px;
+  }
+  
+  #footer{
+    width: 70%;
+    background-color: #f3f3f3;
+    color: #444342;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 600px;
+}
+#footer > div{
+    justify-content: space-between;
+    width: 3%;
+    height: 500px;
+}
+.tophead{
+    /* color: #453a2d; */
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 2px;
+}
+.topheadcontact{
+    background-color: #f3f3f3;
+    margin-right: 5px;
+    font-weight: 800;
+    font-size: 7px;
+    color: black;
+    width: 10%;
+    margin-right: -50px;
+}
+.topContact{
+  font-size: 2px;
+}
+li{
+    text-align: right;
+    font-size: 3px;
+}
+span{
+    font-size: 1px;
+}
+.social i{
+    margin-right: 2px;
+    font-size: 1px;
+}
+.social{
+    width: 15%;
+    margin-left: 2px;
+}
+.socialApp{
+  width: 25%;
+}
+#lastline{
+    margin-top: 5px;
+    font-size: 4px;
+    text-align: center;
+}
+}
 /* #footer{
   width: 95%;
   background-color: #f3f3f3;
