@@ -6,7 +6,7 @@ KOOVS.COM is an online store for western fashion, catering to menswear, womenswe
 # About This Project
 
 This project is a team effort, made during unit-2 of masai school.
-* Live Netlify link of our Project : https://aesthetic-puppy-457a90.netlify.app/
+* Live Netlify link of our Project : https://thunderous-lollipop-31c370.netlify.app/
 * GitHub repository link of our Project : https://github.com/pragati-tripathi05/Unit-2-Group-Project
 
 ## Team Members
